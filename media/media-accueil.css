@@ -1,0 +1,301 @@
+@media screen and (max-width: 1250px){
+    .navListe a{
+        display: none;
+    }
+    .search input{
+        display: none;
+    }
+    .search span .recherche{
+        display: none;
+    }
+    .titre-main p{
+        text-align: center;
+    }
+    #burger{
+        display: block;
+        color: white;
+        margin-top: .1rem;
+    }
+    img[src="img/logo-blanc.png"]{
+        width: 9rem;
+        margin-top: .6rem;
+    }
+    .tourHorizon{
+        padding: 2rem;
+        margin-left: 0;
+    }
+    .mon-ul-navbar{
+        height: 80px;
+    }
+    .main-bloc-img article{
+        padding: 2rem;
+      
+        
+    }
+    .main-bloc-img img[src="img/Arc-de-Triomphe-Paris.jpg"]{
+        width: 30rem;
+        height: 25rem;
+        margin-left: 0px;
+        box-shadow: 1px 1px 50px 1px rgb(207, 207, 207);
+    }
+
+    /***************  FIN de mon media page d'accueil ************/
+}
+
+
+@media screen and (max-width: 992px){
+
+    .main-bloc-img article{
+        padding: 2rem;
+      
+        
+    }
+    .main-bloc-img img[src="img/Arc-de-Triomphe-Paris.jpg"]{
+        width: 25rem;
+        height: 25rem;
+        margin-left: 0px;
+        box-shadow: 1px 1px 50px 1px rgb(207, 207, 207);
+    }
+    .titre-main p{
+        text-align: center;
+    }
+    /***************  FIN de mon media page d'accueil ************/
+
+}
+@media screen and (max-width: 768px){
+    /* Titre sur mon slide */
+/*     .titre-slide{
+        margin-top: 12rem;
+        margin-bottom: -6rem;
+    }
+    .titre-slide h3{
+        font-size: 1.2rem;
+    } */
+
+    /* ***************** RESERVE *************** */
+    .paragraphe{
+        display: none;
+    }
+    .callMe h2{
+        font-size: .8rem;
+        margin-top: 1rem;
+    }
+    .callMe p{
+        font-size: .6rem;
+    }
+    .callMe h5{
+        font-size: .6rem;
+    }
+    .callMe .mesOffres{
+        display: none;
+    }
+    #dateArrive, 
+    #dateDepart{
+    margin: 0 -15%;
+    }
+    .titre-main p{
+        text-align: center;
+    }
+    /********** FIN RESERVE ******************/
+
+
+/* ************* Le quartier ****************** */
+    .main-bloc-img{
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 auto;
+        border: 9px solid rgba(202, 181, 87, 0.3);
+        height: 100%;
+    }
+    .main-paragraphe-bar .textFiltre{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #blocMainImg{  /*********************** LE QUARTIER ******************** */
+        background-color: var(--orClair);
+        height: 100%;
+    }
+
+    .main-bloc-img img[src="img/Arc-de-Triomphe-Paris.jpg"]{
+        width: 100%;
+        height: 20rem;
+        margin-left: 0;
+        margin-bottom: .5rem;
+        box-shadow: 1px 1px 50px 1px rgb(207, 207, 207);
+    }
+    article span{
+        font-size: 1.5rem;
+        border: 2px solid var(--or);
+        width: 10rem;
+        margin: 0 auto;
+        transition-duration: .5s;
+    }
+    .blocMainImg article{
+        width: 100%;
+    }/* ****************** FIN LE QUARTIER ************************* */
+        /* ************ bloc Spa ************** */
+        .premierB .contient{
+            margin-top: 20px;
+        }
+    /* ************************** Fin de le quartier ************** */
+
+
+     /***************  FIN de mon media page d'accueil ************/
+
+     .callMe .divReserve{
+        margin-top: 0rem;
+    }
+
+
+}
+@media screen and (max-width: 630px){
+
+    .mon-ul-navbar{
+        display: block;
+        height: 80px;
+    }
+    .titre-main p{
+        text-align: center;
+    }
+    #burger{
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        z-index: 100;
+    }
+    .nav-Haut .none{
+        display: none;
+    }
+    .nav-Haut{
+        margin-left: -50px;
+    }
+    img[src="img/logo-blanc.png"]{
+        width: 8.5rem;
+        margin-top: -.1rem;
+    }
+    .news{
+        display: none;
+    }
+
+    .callMe .divReserve{
+
+        margin-top: -.4rem;
+    }
+    /* Titre sur mon slide */
+
+     /***************  FIN de mon media page d'accueil ************/
+
+
+    
+}
+@media screen and (max-width: 576px){
+    .reserve{
+        display: flex;
+        width: 100%;
+    }
+    /* ******************** LE QUARTIER ******************* */
+    .main-bloc-img{
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 auto;
+        border: 9px solid rgba(202, 181, 87, 0.3);
+        height: 100%;
+    }
+    .main-paragraphe-bar .textFiltre{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    article span{
+        font-size: 1.5rem;
+        border: 2px solid var(--or);
+        width: 10rem;
+        margin: 0 auto;
+        transition-duration: .5s;
+    }
+    .blocMainImg article{
+        width: 100%;
+    }
+    /* **************** FIN LE QUARTIER ************* */
+    
+ 
+    /* Mon titre bienvenue */
+    .titre-main{
+        margin-top: 8rem;
+    }
+    .titre-main p{
+        text-align: center;
+    }
+    /* ************ bloc Spa ************** */
+    .premierB .contient{
+        margin-top: -.1px;
+    }
+    .premierB .contient h2{
+        font-size: 1.5rem;
+    }
+    .premierB .contient {
+        margin-bottom: -10px;
+    }
+    /* Reserver */
+    .reserve{
+        display: none;
+    }
+    .carousel-inner{ 
+        display: none;
+    }
+
+    .slider-principal{
+        position: relative;
+        
+    }
+
+     /***************  FIN de mon media page d'accueil ************/
+
+}
+
+
+
+
+/* Taille precis pour certains element */
+@media screen and (max-width: 500px){
+    .banniere-footer-displ{
+        display: none;
+    }
+    .display{
+        display: block;
+    }
+    .new-footer h2{
+        font-size: 2rem;
+    }
+    .blocChambre{
+        margin-top: -2.4rem;
+    }
+    .blocChambre h2{
+        font-size: 1.5rem;
+    }
+    main .button a{
+        padding: 0.3rem 1.5rem;
+    }
+    .contient p{
+    line-height: 1.2rem;
+    margin-top: -.6rem;
+    }
+     /***************  FIN de mon media page d'accueil ************/
+}
+
+
+@media screen and (max-width: 350px){
+        #sous-menu-mobile{
+            width: 250px;
+        }
+        img[src="img/logo-fond.png"]{
+            margin-left: 80px;
+        }
+        /***************  FIN de mon media page d'accueil ************/
+
+    }
+
+

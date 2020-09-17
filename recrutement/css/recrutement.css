@@ -1,0 +1,669 @@
+:root{
+    --or: #AC9563;
+    --orClair: #F6F5F3;
+    --gris: #ECECEC;
+    --blanc: #fff;
+    --grisFoncé: rgb(36, 36, 36);
+    --font-playfair: 'Playfair Display', serif;
+    --font-crimson: 'Crimson Text', serif;
+    --font-gara: 'Cormorant Garamond', serif;
+}
+*{
+    scroll-behavior: smooth;
+    font-family: var(--font-gara);
+}
+
+button.slick-next{
+    position: absolute;
+    right: 60px;
+    z-index: 2;
+}
+button.slick-prev{
+    position: absolute;
+    left: 60px;
+    z-index: 8;
+}
+/* ************** Le titre h1 ********************/
+.leTitre{
+    margin: 3.5rem 0;
+    text-align: center;
+    font-family: var(--font-playfair);
+    color: var(--or);
+    margin-top: 200px;
+}
+.partager a{
+    color: var(--grisFoncé);
+    text-align: center;
+}
+.partager a:hover{
+    color: var(--or);
+}
+.share-header{
+    margin: 0.5rem;    
+    justify-content: center;
+}
+.mesIcones a{
+    color: black;
+}
+
+.mesIcones{
+    display: none;
+}
+
+/* ***************** Slide video ******************* */
+/* ************** FIN DE Le titre h1 ********************/
+
+/* *********************** MON SLIDERRRRR *************** */
+.slick-list{
+    position: relative;
+
+}
+.your-class div{
+    padding: .5rem;
+}
+.your-class{
+    position: absolute;
+    top: 0;
+}
+
+
+.slider-principal{
+    position: relative;
+    padding-top: 20rem;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.slider-principal img{
+    height: 620px;
+}
+/* *********************** FIN MON SLIDERRRRR *************** */
+/* *********** Mon titre principal de bienvenue *************/
+
+/* .carousel-inner img[src="img/AdobeStock_188969845_Preview.jpeg"],img[src="img/AdobeStock_188931734_Preview.jpeg"], img[src="img/AdobeStock_77619052_Preview.jpeg"]{ Que mes images prenne tout l'ecran slide 
+    height: 100vh;
+} */
+
+/**************** NAV DEUX  Ma 2eme nav bar ****************/
+.nav-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+ /*    background: var(--or); */
+}
+.nav-bar .paragraphe p a{
+    text-decoration: none;
+    color: var(--grisFoncé);
+}
+.nav-bar .paragraphe p a:hover{
+        text-decoration: none;
+        color: rgb(126, 126, 126);
+
+}
+
+.navBar ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 4rem;
+    align-items: center;
+    margin-left: 8rem;
+}
+.navBar ul li{
+    margin: 0 1.5em;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    font-family: var(--font-crimson);
+}/*  ma liste nav bar */
+.navBar a{
+    text-decoration: none;
+    color: var(--blanc);
+    font-size: 1.3rem;
+}
+
+.mon-ul-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--grisFoncé);
+    border-bottom: 2px solid rgba(156, 140, 50, 0.822);
+    height: 110px;
+}
+.navBar ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+/***********  Logo ***********/
+img[src="../img/logo-or.png"]{
+    width: 11rem;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+}
+/* ------------------------------ Mon menu burger mobile ----------------------------- */
+#burger{
+    font-size: 3rem;
+    margin-top: -50px;
+    display: none;
+    cursor: pointer;
+}
+/* ------------------------- Fin de menu burger --------------------------------- */
+
+.search span .recherche{/* Logo search */
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: var(--orClair);
+}
+.search input{
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid;
+    background: none;
+    color: var(--orClair);
+}
+.search input:focus {/* ENlever le rebord au moment de clic sur input */
+    outline:  none;
+}
+
+.navBar a:hover{
+    text-decoration: none;
+    color: var(--gris);
+    border-bottom: 2px solid var(--orClair);
+   
+}/* Ligne en dessous de ma nav */
+.divider{
+    height: 1px;
+    background-color: var(--blanc);
+    width: 100%;
+    margin-top: -1rem;
+}
+
+/* ********************( NAV ONE) le premier bloc en haut de ma page ********/
+.NavTitre{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--gris);
+    font-size: 0.9rem;
+    align-items: center;
+}
+.nav-Haut{
+    display: flex;
+}
+.nav-Haut a{
+    text-decoration: none;
+    color: var(--grisFoncé);
+    margin-left: -15px;
+}
+.nav-Haut a:hover{
+    text-decoration: none;
+    color: rgb(126, 126, 126);
+}
+
+.NavTitre p{
+   margin: 0.4rem 1rem;
+   font-size: 0.8rem;
+   color: #838383;
+   font-family: 'Raleway', sans-serif;
+}
+/* Fin de ma 1er nav bar  */
+
+/*********************************  Sous-menu **************************/
+.menu-none{
+    background-color: rgb(255, 255, 255); /* display: none;  */
+}
+.sous-menu{
+    height: 450px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    display: flex;
+    
+}
+.dining{
+    display: none;
+}
+.chambre{
+    display: none;
+}
+.spa{
+    display: none;
+}
+
+/* Mes img dans mon sous-menu */
+
+.one article{
+    width: 17rem;
+    margin: 80px 2rem;
+
+    
+}
+.one article img{
+    width: 100%;
+}
+.one{
+    display: flex;
+    justify-content: center;
+}
+.one img{
+    height: 160px;
+}
+/* **** */
+/* ************ texte  sous img dans mon sous menu ************/
+.contentOne{
+    color: var(--or);
+}
+.contentOne div{
+    text-align: center;
+}
+
+h2{
+    color: var(--or);
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+/* .form-titre{
+    text-align: center;
+} */
+
+.contentOne>p{
+    color: var(--or);
+    font-size: .9rem;
+}
+.button{
+    margin-top: 1.5rem;
+    text-decoration: none;
+}
+.button a{
+    border: 2px solid var(--or);
+    padding: 0.3rem 1.3rem;
+    color: var(--or);
+    transition-duration: 0.5s;
+    text-decoration: none;
+    font-family: var(--font-playfair);
+}
+.button a:hover{
+    background-color: var(--or);
+    text-decoration: none;
+    color: var(--orClair);
+}
+
+/* Button nav bar sous menu titre des bloc (resto - spa - chambre) */
+.button-nav{
+    margin-top: 1.5rem;
+    text-decoration: none;
+}
+.button-nav a{
+    border: 2px solid var(--or);
+    padding: 0.4rem 3rem;
+    color: var(--or);
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+.button-nav a:hover{
+    background-color: var(--or);
+    text-decoration: none;
+    color: var(--orClair);
+}
+/* *********** Button dans le main************ */
+main .button{
+    margin-top: 3rem;
+    text-decoration: none;
+    text-align: center;
+}
+main .button a{
+    border: 2px solid var(--or);
+    padding: 1.5% 6%;
+    color: var(--or);
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+main .button a:hover{
+    background-color: var(--or);
+    text-decoration: none;
+    color: var(--orClair);
+}
+/* Mon trait sous mes titre */
+.divider1{
+    height: 1px;
+    background-color: var(--or);
+    margin: 0.6rem 0;
+}
+.divDining #btn{
+    padding: 0.7rem;
+    border: 1px solid var(--or);
+    text-align: center;
+    font-size: 1rem;
+    transition-duration: 0.5s;
+}
+.divDining #btn:hover{
+    background-color: var(--or);
+    transition-duration: 0.5s;
+}
+.sous-menu h2{
+    font-size: 1rem;
+    padding: .9rem 0;
+
+    /* display: none; */
+}
+.divDining{
+    font-size: 0.9rem;
+    margin: 0 20px;
+    padding: 1.5rem 0;
+}
+/* ************** Mon sous menu mobile ****************** */
+#sous-menu-mobile{
+    width: 350px;
+    background-color: rgba(255, 255, 255, 10);
+    height: calc(100vh - 11rem);
+    position: absolute;
+    right: 0;
+    display: none;
+}
+.profil{
+    display: flex;
+    padding: 1rem;
+}
+
+.profil h2{
+    font-size: .8rem;
+    
+}
+.profil h3{
+    padding: 0 3rem;
+    font-size: .8rem;
+}
+.croix{
+    position: absolute;
+    top: .6rem;
+    right: 10px;
+    font-size: 1.5rem;
+}
+
+h3{
+    display: inline-flex;
+} 
+
+/* Le premier titre de ma sous nav mobile */
+.oneTitre h4{
+    font-size: 1rem;
+    font-family: var(--font-playfair);
+    font-style: italic;
+    padding: 1rem ;
+}
+.divider2{
+    height: 1px;
+    background-color: var(--or);
+    margin: 0.6rem 0;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+img[src="../img/logo-fond.png"]{
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+}
+.mes-choix a{
+    color: black;
+    font-size: .9rem;
+    padding: 0 1rem;
+    font-size: var(--font-gara);
+
+}
+.mes-choix a:hover{
+    color: var(--or);
+}
+.mes-choix{
+    text-transform: uppercase;
+}
+.twoTitre h4{
+    font-size: 1rem;
+    font-family: var(--font-playfair);
+    font-style: italic;
+    padding: 0 1rem ;
+}
+.info{
+    text-transform: uppercase;
+    padding: 1.5rem 0;
+
+
+}
+.info a{
+    color: black;
+    font-size: .9rem;
+    padding: 0 1rem;
+    font-size: var(--font-gara);
+
+}
+.macroix i{
+    cursor: pointer;
+}
+.info a:hover{
+    color: var(--or);
+
+}
+
+/* ******************* Mon titre main ******************* */
+.mon-titre-main{
+    text-align: center;
+    margin-top: 10rem;
+}
+.mon-titre-main h2{
+    font-size: 3rem;
+}
+.mon-titre-main p{
+    text-align: center;
+    width: 60%;
+    margin: 2rem auto;
+    font-size: 1.3rem;
+}
+/* Modal */
+.invalid input:required:invalid {
+    background: #BE4C54;
+  }
+
+  .invalid input:required:valid {
+    background: #17D654;
+  }
+  .modal-title i{
+      margin-right: 1.1rem;
+  }
+  /* Fin modal */
+/* *************************** Fin de mon titre main ********** */
+/*********** Bloc carrière */
+.carriere{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.espace{
+    margin-bottom: 100px;
+}
+.valeur{
+    text-align: left;
+    margin-bottom: 100px;
+}
+.valeur h5{
+    text-align: center;
+    font-size: var(--font-playfair);
+    font-weight: bold;
+}
+.button1, .button2{
+    border: 1px solid var(--or);
+    background-color: var(--blanc);
+    width: 200px;
+    padding: 0.5rem 0;
+}
+.button1{
+    height: 2.5rem;
+    margin-top: 2rem;
+
+}
+.button1:hover{
+    background-color: var(--or);
+}
+.button2:hover{
+    background-color: var(--or);
+}
+
+.form-recherche{
+    margin-bottom: 5rem;
+}
+
+/* **************** Partie bg-Noir de mon footer ****************** */
+footer{
+    background-color: var(--grisFoncé);
+    
+}/*************** Banniere reseaux  *****************/
+footer .banniere-footer {
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .7rem;
+    flex-wrap: wrap;
+}
+
+footer .banniere-footer {
+    background-color: var(--gris);
+    border-bottom: 4px solid var(--or);
+}
+
+footer .banniere-footer p {
+    margin: 1rem;
+    padding-top: .3rem;
+}
+
+footer .banniere-footer p a {
+    text-decoration: none;
+    color: grey;
+}
+
+footer .banniere-footer p a:hover {
+    color: var(--grisFoncé);
+}
+
+footer .reseaux ul li a {
+    padding: 0 .6rem;
+    font-size: 1rem;
+}
+
+footer .reseaux ul li a:hover {
+    font-size: .9rem;
+}
+
+footer .reseaux ul li a i {
+    position: relative;
+    top: -5px;
+}
+
+footer .reseaux {
+    padding: 0 6rem;
+    padding-top: .3rem;
+}
+
+footer .reseaux ul {
+    display: flex;
+    margin: 1rem;
+    color: var(--or);
+}
+footer .reseaux ul li{
+    list-style: none;
+}
+
+footer .connect {
+    padding-right: 2rem;
+    color: grey;
+}
+
+footer .reseaux ul li a {
+    text-decoration: none;
+    color: var(--or);
+}
+/* **************** Partie bg-Noir de mon footer ****************** */
+.fin-footer{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.fin-footer a{
+    color: var(--or);
+}
+.fin-footer a:hover{
+    color: var(--orClair);
+}
+.fin-footer .news label{
+    float: right;
+    padding: 6px;
+    background-color: var(--or);
+    font-size: 1.4rem;
+}
+.news input[value="OK"]{
+    width: 50px;
+    padding: .5rem 0;
+    background-color: var(--or);
+    color: var(--orClair);
+    border: 2px solid var(--or);
+}
+.fin-footer .news #mon-inputFooter{
+    padding: .5rem;
+    width: 18rem;
+}
+.fin-footer h6{
+    font-size: 1.2rem;
+    font-family: var(--font-playfair);
+    font-style: italic;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    color: var(--orClair);
+}
+.footer-logo{
+    text-align: center;
+    padding-top: 2rem;
+}
+.monAdresse{
+    color: var(--orClair);
+    margin: 0 auto;
+    margin-top: 5rem;
+    font-size: .7rem;
+    font-style: italic;
+    font-family: var(--font-playfair);
+    margin-bottom: -5rem;
+}
+.maito a{
+    text-decoration: none;
+    color: var(--orClair);
+}
+.maito a:hover{
+    text-decoration: none;
+    color: var(--orClair);
+}
+footer .divider2{
+    margin-top: 5rem;
+}
+footer .fin{
+    margin-top: -1.8rem;
+    color: var(--orClair);
+    margin-left: 6rem;
+    font-size: .7rem;
+}
+/* Media */
+@media screen and (max-width: 767px){
+.button1{
+    margin-top: 0;
+}
+}
+@media screen and (max-width: 630px){
+    img[src="../img/logo-or.png"] {
+        width: 9rem;
+        margin-top: -0.2rem;
+    }
+}

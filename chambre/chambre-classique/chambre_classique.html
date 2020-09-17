@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chambre Classique</title>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../chambres.CSS/chambre.css">
+    <link rel="stylesheet" href="../../media/media-accueil.css">
+    <link rel="icon" type="image/png" href="../../img/logo-test.png"/>
+
+    <meta name="description" content="Réservez votre séjour dans le plus mythique des hôtels 5 étoiles à Paris, à deux pas de l'avenue des Champs Élysées, bénéficie d'un cadre idyllique. 
+    et vous ouvre les portes d'un monde d'élégance et de raffinement au coeur de la ville Lumière. Chambre et Suites grand luxe avec une vue époustouflante sur la tour Eiffel. Nos restaurants 
+    gastronomiques feront de votre séjour un moment gustatif remarquable. Après votre virée dans la ville, venez vous relaxer dans notre spa à l'ambiance chaleureuse et au décor somptueux.">
+    <meta name="publisher" content="Kelton Semedo et Neeta Sawmynaden">
+    <META NAME= "Category" CONTENT= "hôtel 5 étoiles avenue Montaigne Paris">
+    <meta name="keyword" content="hôtel, palace, luxe, spa, chambre, suite, gastronomie, tour Eiffel, ">
+    <meta property="og:site_name" content="Hôtel Cop Paris" />
+    <meta property="og:type" content="site web" />
+    <meta property="og:url" content="https://www.hotelcop.com/" />
+    <meta property="og:title" content="Hôte Cop / Chambre_classique"/>
+    <meta property="og:image" content="../../img/logo-or.png"/>
+    <meta property="og:description" content="Réservez votre séjour dans le plus mythique des hôtels 5 étoiles à Paris, à deux pas de l'avenue des Champs Élysées, bénéficie d'un cadre idyllique. 
+    et vous ouvre les portes d'un monde d'élégance et de raffinement au coeur de la ville Lumière. Chambre et Suites grand luxe avec une vue époustouflante sur la tour Eiffel. Nos restaurants 
+    gastronomiques feront de votre séjour un moment gustatif remarquable. Après votre virée dans la ville, venez vous relaxer dans notre spa à l'ambiance chaleureuse et au décor somptueux." />
+    <meta property="og:local" content="français"/>
+    
+    <link rel="stylesheet" type="text/css" href="../slick-1.5.0/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../slick-1.5.0/slick/slick-theme.css"/>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Font-google -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+<!--Body -->
+
+<body>
+<!--Header-->
+<header>
+    <!-- Ma nav-bar  -->
+    <nav class="nav-bar">
+        <!-- Ma premiere nav bar-->
+        <section class="NavTitre">
+            <div class="paragraphe">
+                <p><a href="#resto">> DÉCOUVREZ NOS OFFRES</a></p>
+            </div>
+
+            <div class="nav-Haut">
+                <p><a class="none" href="../../index.html#ancreMaps">Accès</a></p>
+                <p><a class="none" href="../../Qui-sommes-nous/qui_sommes_nous.html">Qui-sommes-nous </a></p>
+                <p><a href="#" data-toggle="modal" data-target="#exampleModal">Contact </a></p>
+                <p><a href="#">EN/FR</a></p>
+            </div>
+        </section>
+        <!--Second nav bar-->
+        <section class="navBar">
+            <div class="mon-ul-navbar">
+                <p><img onclick="window.location.href='../../index.html'" src="../../img/logo-or.png" alt="logo hotelcop"></p>
+                <ul class="navListe">
+                    <li><a href="../../index.html"> Accueil</a></li>
+                    <li><a class="diner" href="#"> Restaurants</a></li>
+                    <li><a class="chamb" href="#"> Chambres</a></li>
+                    <li><a class="spaning" href="#"> Spa</a></li>
+                </ul>
+
+                <div class="search">
+                    <input type="text" placeholder="Recherche">
+                    <span><i class="fas fa-search recherche"></i></span>
+                    <p id="burger"><svg id="barNav" width="1em" height="1em" viewBox="0 0 16 16"
+                            class="bi bi-filter-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z" />
+                        </svg>
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-fluid menu-none dining">
+                <div class="sous-menu">
+                    <div class="divDining">
+                        <h2>Restaurants</h2>
+                        <div class="divider1"></div>
+                        <p style="width: 250px;">Nous vous proposons une restauration haut de gamme répondant à vos
+                            attentes et vos besoins..</p>
+                        <p class="button-nav"><a href="../../Restaurant/Restaurant.html">Les Restaurants</a></p>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <section class="one">
+                                <article>
+                                    <img src="../../img/slider_up_resto/slider_up_brasserie_1.jpg" alt="image">
+                                    <div class="contentOne">
+                                        <div>
+                                            <h2>La brasserie Cop</h2>
+                                        </div>
+                                        <p>Dégustez les mythiques plats français pour un moment convivial et
+                                            savoureux</p>
+                                        <div class="button">
+                                            <a href="../../Restaurant/Restaurant.html">Voir plus</a>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="../../img/slider_up_resto/slider_up_oiseau-bleu.jpg" alt="image">
+                                    <div class="contentOne">
+                                        <div>
+                                            <h2>L'oiseau bleu</h2>
+                                        </div>
+                                        <p>Laissez-vous emporter pour un voyage gustatif hors norme ...</p>
+
+                                        <div class="button">
+                                            <a href="../../Restaurant/Restaurant.html">Voir plus</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid menu-none chambre">
+                <div class="sous-menu">
+                    <div class="divDining">
+                        <h2>Chambres & Suites</h2>
+                        <div class="divider1"></div>
+                        <p style="width: 250px;">Élégance, chic, patrimoine ; tout ce qui rend Paris spécial se
+                            reflète dans nos chambres et suites..</p>
+                        <p class="button-nav"><a href="../../chambre/chambre-principal.html">Les chambres</a></p>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <section class="one">
+                                <article>
+                                    <img src="../../img/slider_up_chambre/slider_up_chambre_deluxe_1.jpg" alt="image chambre deluxe">
+                                    <div class="contentOne">
+                                        <div>
+                                            <h2>Chambres</h2>
+                                        </div>
+                                        <p>Élégamment décorées avec un parquet en
+                                            chêne teinté et de magnifiques luminaires Murano....</p>
+                                        <div class="button">
+                                            <a href="../../chambre/chambre-deluxe/chambre_deluxe.html">Voir plus</a>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="../../img/slider_up_chambre_principal/slider_principal_suite-blanche.jpg" alt="image" title="chambre suite">
+                                    <div class="contentOne">
+                                        <div>
+                                            <h2>Suites</h2>
+                                        </div>
+                                        <p>Les plus belles et élégantes suites de Paris s'offrent à vous pour un
+                                            séjour inoubliable ...</p>
+
+                                        <div class="button">
+                                            <a href="../../chambre/Chambre-Suites/suites.html">Voir plus</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid menu-none spa">
+                <div class="sous-menu">
+                    <div class="divDining">
+                        <h2>Spa</h2>
+                        <div class="divider1"></div>
+                        <p style="width: 250px;">Afin d'harmoniser corps et esprit, nous offrons des soins
+                            personnalisés
+                            issus des dernières avancées dans le domaine du bien-être.</p>
+                        <p class="button-nav"><a href="../../Spa/Spa.html">Le Spa</a></p>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <section class="one">
+                                <article>
+                                    <img src="../../img/slider_up_spa/slider_up_spa_10.jpg" alt="image spa" title="spa">
+                                    <div class="contentOne">
+                                        <div>
+                                            <h2>Soins & Massages</h2>
+                                        </div>
+                                        <p>Au cœur du Spa en partenariat avec Carita Paris, découvrez nos soins
+                                            signature ...</p>
+                                        <div class="button">
+                                            <a href="../../Spa/Spa.html">Voir plus</a>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="../../img/slider_down_spa/slider_down_entree-spa.jpg" alt="Entrée spa" title="spa">
+                                    <div class="contentOne">
+                                        <div>
+                                            <h2>Hammam</h2>
+                                        </div>
+                                        <p>Profitez des bienfaits relaxants et détoxifiants du sauna et hammam et la piscine...
+                                        </p>
+
+                                        <div class="button">
+                                            <a href="../../Spa/Spa.html">Voir plus</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--Mon sous menu mobile -->
+            <div id="sous-menu-mobile">
+                <div class="profil">
+                    <h2>My profile</h2>
+                    <h3>login</h3>
+                    <div class="macroix">
+                        <p><i class="croix fas fa-times"></i></p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="../../img/logo-fond.png" alt="logo">
+                </div>
+                <section class="oneTitre">
+                    <h4>Nos offres</h4>
+                    <div class="divider2"></div>
+                </section>
+                <div class="mes-choix">
+                    <p><a href="../../index.html">Accueil</a></p>
+                    <p><a href="../../Restaurant/Restaurant.html">Restaurants</a></p>
+                    <p><a href="../chambre-principal.html">Chambres</a></p>
+                    <p><a href="../../Spa/Spa.html">Spa</a></p>
+                    <div class="divider2"></div>
+                </div>
+                <section class="twoTitre">
+                    <h4>En savoir plus</h4>
+                </section>
+                <div class="info">
+                    <p><a href="../../index.html#ancreMaps">Accès</a></p>
+                    <p><a href="../../Qui-sommes-nous/qui_sommes_nous.html">Qui sommes nous</a></p>
+                    <p><a href="#" data-toggle="modal" data-target="#exampleModal">Nous contacter</a></p>
+                </div>
+            </div>
+            <!-- FINNNN  de Mon sous menu mobile -->
+        </section>
+    </nav>
+</header>
+<!--Fin Header -->
+
+<!-- Titre sur mon slider principal-->
+<main>
+        <div class="container monTitrePrincipal">
+            <h1>Chambre Classique</h1>
+            <div class="d-flex share-header">
+                <p class="partager" id="toggle-fading"><a href="#"><i class="share-header fas fa-share-alt icon"></i></a></p>
+                <div class="mesIcones">
+                    <a target="blank" href="mailto:contact@hotelcop.fr"><i class="share-header far fa-envelope"></i></a>
+                    <a target="blank" href="https://www.facebook.com/"><i
+                            class="share-header fab fa-facebook-f"></i></a>
+                    <a target="blank" href="https://www.messenger.com/login.php"><i
+                            class="share-header fab fa-facebook-messenger"></i></a>
+                    <a target="blank" href="https://web.whatsapp.com/"><i
+                            class="share-header fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Fin  -->
+
+        <!-- Slider chambre deluxe -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../../img/slider_up_chambre/slider_up_chambre_classique_1.jpg"
+                        class="d-block w-100" alt="chambre classique 1" title="chambre classique">
+                </div>
+                <div class="carousel-item">
+                    <img src="../../img/slider_up_chambre/slider_up_chambre_classique_2.jpg"
+                        class="d-block w-100" alt="chambre classique 2" title="chambre classique">
+                </div>
+                <div class="carousel-item">
+                    <img src="../../img/slider_up_chambre/slider_up_sdb_classique_4.jpg"
+                        class="d-block w-100" alt="salle de bain" title="salle de bain">
+                </div>
+                <div class="carousel-item">
+                    <img src="../../img/slider_up_chambre/slider_up_sdb_confort_1.jpg"
+                        class="d-block w-100" alt="salle de bain" title="salle de bain">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Jumbotron-->
+        <div class="jumbotron jumbotron-fluid" style="background-color: #AC9563 ">
+            <div class="container titreSousSlider">
+                <h6 class="display-4">Les Chambres "Classique", décorées de façon élégante et contemporaine</h6>
+                <p class="blocChambre">Elles dévoilent une vue paisible sur la cour intérieure de l’Hôtel.
+                    Elles disposent d’un parquet en chêne teinté, de magnifiques luminaires Murano et un mobilier créé
+                    spécialement pour l’hôtel. <br> La salle de bain en marbre Statuario,
+                    baignée de lumière naturelle, bénéficie de produits d’accueil Hermès.
+                </p>
+                <p style="font-style: italic;">800€ la nuit</p>
+                <p class="button-reserve"><a href="../../reservation/reserve.html">Réserver</a></p> <!-- Lien vers formulaire résa -->
+            </div>
+        </div>
+        <!-- Lien vers la page chambre principal -->
+        <p class="revenir"><i class="fas fa-angle-left"></i><a href="../chambre-principal.html">Revenir à la liste des chambres</a></p>
+        <!--formulaire de résa-->
+
+        <!-- Détails / équipements et services-->
+        <div class="container bloc">
+            <div class="row d-flex detail">
+                <div class="blocUl">
+                    <h2>Détails</h2>
+                    <div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Lit king size</li>
+                            <li><i class="fas fa-check"></i> Vue sur la cour intérieure</li>
+                            <li><i class="fas fa-check"></i> Ecran tactile de contrôle</li>
+                            <li><i class="fas fa-check"></i> TV Bang & Olufsen</li>
+                            <li><i class="fas fa-check"></i> Produits d’accueil Hermès</li>
+                            <li><i class="fas fa-check"></i> Parquet en chêne teinté</li>
+                            <li><i class="fas fa-check"></i> Appliques murales en verre de Murano</li>
+                            <li><i class="fas fa-check"></i> Salle de bain en marbre Statuario</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blocUl">
+                    <h2>Équipements et services</h2>
+                    <div>
+                        <ul>
+                            <li><i class="fas fa-phone"></i> Wi-Fi</li>
+                            <li><i class="fas fa-ethernet"></i> Accès internet câblé</li>
+                            <li><i class="far fa-snowflake"></i> Système de climatisation</li>
+                            <li><i class="fas fa-dumbbell"></i> Accès au centre de fitness</li>
+                            <li><i class="fas fa-glass-martini-alt"></i> Mini-bar</li>
+                            <li><i class="fas fa-key"></i> Coffre-fort</li>
+                            <li><i class="fas fa-tv"></i> Télévision numérique</li>
+                            <li><i class="fas fa-phone"></i> Téléphone</li>
+                            <li><i class="fas fa-shoe-prints"></i> Peignoir et chaussons haut de gamme</li>
+                            <li><i class="fas fa-dice-six"></i> Système de divertissement</li>
+                            <li><i class="fas fa-concierge-bell"></i> 24 Hours Room Service</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Séjour et condition générales-->
+        <div class="container-fluid">
+            <div class="second">
+                <div class="row secondBloc no-gutters">
+                    <div class="premierB col-lg-5 light">
+                        <div class="contient ">
+                            <h2>Votre séjour</h2>
+                            <p>Arrivée à 15 h / Départ à 12 h.Vous serez contacté(e) avant votre arrivée par notre équipe de
+                                Concierges qui se fera un
+                                plaisir de vous accompagner pour un séjour sur-mesure et
+                                restera à votre disposition pour toute information supplémentaire.
+                                Pour toute demande en préparation de votre séjour, veuillez contacter l’équipe Réservations
+                                qui se fera un plaisir de vous assister.
+                                Veuillez noter que toutes nos chambres et suites sont non-fumeurs. <br>
+                                <b> reservations@hotelcop.com</b>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="secondB col-lg-5 light offset-lg-2 offset-md-0">
+                        <div>
+                            <div class="contient2">
+                                <h2>Conditions générales</h2>
+                                <p>L'offre est valable jusqu'au 31 décembre 2020, sous reserve de disponiblité sur toutes
+                                    les suites de la Deluxe Suite à la Suite Présidentielle, la TVA est incluse à 10%,
+                                    la taxe de séjour est exclue à 5 EUR par personne et par nuit. <br><br>Une fois la
+                                    réservation
+                                    confirmée, elle peut être annulée sans frais 24 heures avant l’arrivée.<br>
+                                    En cas d’annulation tardive, départ anticipé ou non présentation, une nuit sera
+                                    facturée. Offre non-cumulable.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- Slider mes images principales qui defilent -->
+         <div class="slider-footer">
+            <div class="your-class">
+                <div><img src="../../img/slider_down_chambre/slider_down_chambre_classique_1.jpg" alt="chambre classique 1" title="chambre classique 2"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_chambre_classique_2.jpg" alt="chambre classique 2" title="chambre classique 2"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_chambre_deluxe_1.jpg" alt="chambre deluxe 1" title="chambre deluxe 1"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_chambre_deluxe_2.jpg" alt="chambre deluxe 2" title="chambre deluxe 2"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_chambre_deluxe_3.jpg" alt="chambre deluxe 3" title="chambre deluxe 3"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_chambre_deluxe_4.jpg" alt="chambre deluxe 4" title="chambre deluxe 4"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_sdb_deluxe_1.jpg" alt="salle de bain deluxe 1" title="salle de bain deluxe 1"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_sdb_deluxe_2.jpg" alt="salle de bain deluxe 2" title="salle de bain deluxe 2"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_sdb_deluxe_3.jpg" alt="salle de bain deluxe 3" title="salle de bain deluxe 3"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_chambre_confort_1.jpg" alt="chambre confort 1" title="chambre confort 1"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_chambre_confort_2.jpg" alt="chambre confort 2" title="chambre confort 2"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_suite-eiffel.jpg" alt="suite-eiffel" title="suite-eiffel"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_suite-grise.jpg" alt="suite-grise" title="suite-grise"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_suite-blanche.jpg" alt="suite-blanche" title="suite-blanche"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_suite_1.jpg" alt="suite 1" title="suite 1"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_suite_2.jpg" alt="suite 2" title="suite 2"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_suite_3.jpg" alt="suite 3" title="suite 3"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_suite_4.jpg" alt="suite 4" title="suite 4"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_suite_5.jpg" alt="suite 5" title="suite 5"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_suite_6.jpg" alt="suite 6" title="suite 6"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_suite_7.jpg" alt="suite 7" title="suite 7"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_suite_8.jpg" alt="suite 8" title="suite 8"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_suite_9.jpg" alt="suite 9" title="suite 9"></div>
+                <div><img src="../../img/slider_down_chambre/slider_down_suite_11.jpg" alt="suite 11" title="suite 11"></div>
+            </div>
+        </div>
+</main>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"><i class="fas fa-envelope"></i>Contactez nous</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <form class="needs-validation" novalidate>
+                  <div class="d-flex ">
+                      <div class="form-group">
+                          <label for="exampleInputEmail1">Nom</label>
+                          <input type="text" class="form-control" id="exampleInputEmail1"
+                              aria-describedby="exampleInputEmail1" required>
+                          <div class="invalid-feedback">
+                              Veuillez écrire votre nom
+                          </div>
+                      </div>
+
+                      <div class="form-group offset-1">
+                          <label for="exampleInputPassword2">Prénom</label>
+                          <input type="text" class="form-control" id="exampleInputPassword2" required>
+                          <div class="invalid-feedback">
+                              Veuillez écrire votre prénom
+                          </div>
+                      </div>
+                  </div>
+
+              <div class="d-flex ">
+                  <div class="form-group">
+                      <label for="exampleInputPassword3">Entreprise</label>
+                      <input type="text" class="form-control" id="exampleInputPassword3">
+                  </div>
+
+                  <div class="form-group offset-1">
+                      <label for="exampleInputPassword4">Email</label>
+                      <input type="email" class="form-control" id="exampleInputPassword4" required>
+                      <div class="invalid-feedback">
+                          Veuillez écrire votre email
+                      </div>
+                  </div>
+              </div>
+
+              <div class="d-flex ">
+                  <div class="form-group">
+                      <label for="exampleInputPassword8">Téléphone</label>
+                      <input type="tel" class="form-control" id="exampleInputPassword8">
+                  </div>
+
+                  <div class="form-group offset-1">
+                      <label for="exampleInputPassword5">Pays</label>
+                      <input type="text" class="form-control" id="exampleInputPassword5" required>
+                      <div class="invalid-feedback">
+                          Veuillez indiquer votre pays
+                      </div>
+                  </div>
+              </div>
+
+              <div class="d-flex ">
+                  <div class="form-group">
+                      <label for="exampleInputPassword6">Sujet</label>
+                      <input type="text" class="form-control" id="exampleInputPassword6" required>
+                      <div class="invalid-feedback">
+                          Veuillez indiquer le sujet
+                      </div>
+                  </div>
+
+                  <div class="form-group offset-1">
+                      <label for="exampleInputPassword7">Catégorie</label>
+                      <select class="form-control" id="exampleInputPassword7" required>
+                          <option value="" selected>Choisissez...</option>
+                          <option>Chambre</option>
+                          <option>Restaurant</option>
+                          <option>Spa</option>
+                          <option>Autre</option>
+                      </select>
+                  </div>
+              </div>
+
+                  <div class="form-group">
+                      <label for="exampleInputPassword9">Message</label>
+                      <textarea class="form-control" id="exampleInputPassword9" required></textarea>
+                      <div class="invalid-feedback">
+                          Veuillez écrire votre message
+                      </div>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary"
+                      style="background-color: #AC9563; border: none;">Envoyer</button>
+              </form>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- FIN MODAL-->
+
+<footer>
+    <div class="container-fluid banniere-footer-displ"><!-- Il se met en display none a moins de media(500) -->
+        <div class="row">
+            <div class="banniere-footer d-flex col-lg-12">
+                <p><a href="#" data-toggle="modal" data-target="#exampleModal">Contact</a></p>
+                <p><a href="../../recrutement/recrutement.html">Recrutement</a></p>
+                <p><a href="../../presse_actu_event/presse.html">presse</a></p>
+                <p><a href="../../Avis/avis.html">Avis</a></p>
+                <p><a href="../plan_du_site/plan_du_site.html">Plan du site</a></p>
+                <p><a href="#" OnClick="javascript:window.print()">Imprimer la page</a></p>
+
+                <div class="reseaux">
+                    <ul>
+                        <li class="connect">Suivez-nous</li>
+                        <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.pinterest.com"><i class="fab fa-pinterest-p"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>    
+    </div>
+    <!-- Dans la partie noir de mon footer -->
+    <div class="footer-logo">
+        <p><img src="../../img/logo-or.png" alt="logo"></p>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="fin-footer">
+                <div class="contact-footer">
+                    <h6>Informations</h6>
+                    <p><a href="../../Qui-sommes-nous/qui_sommes_nous.html">À propos de nous</a></p>
+                    <p><a href="../../recrutement/recrutement.html">Carrières</a></p>
+                    <p><a href="../../presse_actu_event/actualités.html">Actualités</a></p>
+                    <p><a href="#" data-toggle="modal" data-target="#exampleModal">Nous contacter</a></p>
+                </div>
+                <div class="objectif">
+                    <h6>Liens utiles</h6>
+                    <p><a href="../../reservation/reserve.html">Réservation</a></p>
+                    <p><a href="../../presse_actu_event/event.html">Événements</a></p>
+                    <p><a href="../../cgv/mentions_legales.html">Mentions légales</a></p>
+                    <p><a href="../../cgv/cgv.html">CGV</a></p>
+                </div>
+                <div class="news">
+                    <!-- Display none a moins de media(630) -->
+                    <h6>Recevoir nos offres</h6>
+                    <form>
+                        <input type="text" name="offre" id="mon-inputFooter" required>
+                        <input type="submit" value="OK">
+                    </form>
+                </div>
+            </div>
+            <p class="monAdresse">1 Avenue Montaigne 75008 Paris | | 01 00 00 00 00  | | <span class="maito"> <a href="mailto:">contact@hotelcop.fr</a> </span></p>
+            <div class="divider2"></div>
+            <div class="fin">
+                <p>©Hotelcop Limited 2020. Tous les droits sont réservés.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- cdn Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<!-- Fin de cdn bootstrap  -->
+<!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/2c505c2fd3.js" crossorigin="anonymous"></script>
+<!-- Fin de cdn font awesome -->
+
+<!-- CDN pour jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- src pour slick -->
+    <script src="../slick-1.5.0/slick/slick.min.js"></script>
+    <!-- Src pour mon js -->
+    <script src="../js-principal/chambre.js"></script>
+</body>
+
+</html>

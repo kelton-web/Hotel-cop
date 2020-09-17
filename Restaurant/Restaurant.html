@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Restaurants</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="css-resto/resto.css">
+    <link rel="stylesheet" href="../media/media-accueil.css">
+    <link rel="icon" type="image/png" href="../img/logo-test.png"/>
+
+    <meta name="description"
+        content="Réservez votre séjour dans le plus mythique des hôtels 5 étoiles à Paris, à deux pas de l'avenue des Champs Élysées, bénéficie d'un cadre idyllique. 
+    et vous ouvre les portes d'un monde d'élégance et de raffinement au coeur de la ville Lumière. Chambre et Suites grand luxe avec une vue époustouflante sur la tour Eiffel. Nos restaurants 
+    gastronomiques feront de votre séjour un moment gustatif remarquable. Après votre virée dans la ville, venez vous relaxer dans notre spa à l'ambiance chaleureuse et au décor somptueux.">
+    <meta name="publisher" content="Kelton Semedo et Neeta Sawmynaden">
+    <META NAME="Category" CONTENT="hôtel 5 étoiles avenue Montaigne Paris">
+    <meta name="keyword" content="hôtel, palace, luxe, spa, chambre, suite, gastronomie, tour Eiffel, ">
+    <meta property="og:site_name" content="Hôtel Cop Paris" />
+    <meta property="og:type" content="site web" />
+    <meta property="og:url" content="https://www.hotelcop.com/" />
+    <meta property="og:title" content="Hôte Cop / Restaurant" />
+    <meta property="og:image" content="../img/logo-or.png" />
+    <meta property="og:description"
+        content="Réservez votre séjour dans le plus mythique des hôtels 5 étoiles à Paris, à deux pas de l'avenue des Champs Élysées, bénéficie d'un cadre idyllique. 
+    et vous ouvre les portes d'un monde d'élégance et de raffinement au coeur de la ville Lumière. Chambre et Suites grand luxe avec une vue époustouflante sur la tour Eiffel. Nos restaurants 
+    gastronomiques feront de votre séjour un moment gustatif remarquable. Après votre virée dans la ville, venez vous relaxer dans notre spa à l'ambiance chaleureuse et au décor somptueux." />
+    <meta property="og:local" content="français" />
+
+    <link rel="stylesheet" type="text/css" href="../chambre/slick-1.5.0/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="../chambre/slick-1.5.0/slick/slick-theme.css" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Font-google -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <!-- Ma nav-bar  -->
+        <!-- Ma premiere nav bar -->
+        <nav class="nav-bar">
+            <section class="NavTitre">
+                <div class="paragraphe">
+                    <p><a href="#resto">> DÉCOUVREZ NOS OFFRES</a></p>
+                </div>
+
+                <div class="nav-Haut">
+                    <p><a class="none" href="../index.html#ancreMaps">Accès</a></p>
+                    <p><a class="none" href="../Qui-sommes-nous/">Qui-sommes-nous </a></p>
+                    <p><a href="#" data-toggle="modal" data-target="#exampleModal">Contact </a></p>
+                    <p><a href="#">EN/FR</a></p>
+                </div>
+            </section>
+
+            <!-- Second nav bar -->
+            <section class="navBar">
+                <div class="mon-ul-navbar">
+                    <p><img onclick="window.location.href='../index.html'" src="../img/logo-or.png" alt="logo hotelcop"></p>
+                    <ul class="navListe">
+                        <li><a href="../index.html"> Accueil</a></li>
+                        <li><a class="diner" href="#"> Restaurants</a></li>
+                        <li><a class="chamb" href="#"> Chambres</a></li>
+                        <li><a class="spaning" href="#"> Spa</a></li>
+                    </ul>
+
+                    <div class="search">
+                        <input type="text" placeholder="Recherche">
+                        <span><i class="fas fa-search recherche"></i></span>
+                        <p id="burger"><svg id="barNav" width="1em" height="1em" viewBox="0 0 16 16"
+                                class="bi bi-filter-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container-fluid menu-none dining">
+                    <div class="sous-menu">
+                        <div class="divDining">
+                            <h2>Restaurants</h2>
+                            <div class="divider1"></div>
+                            <p style="width: 250px;">Nous vous proposons une restauration haut de gamme répondant à vos
+                                attentes et vos besoins..</p>
+                            <p class="button-nav"><a href="../Restaurant/Restaurant.html">Les Restaurants</a></p>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <section class="one">
+                                    <article>
+                                        <img src="../img/slider_up_resto/slider_up_brasserie_1.jpg" alt="image">
+                                        <div class="contentOne">
+                                            <div>
+                                                <h2>La brasserie Cop</h2>
+                                            </div>
+                                            <p>Dégustez les mythiques plats français pour un moment convivial et
+                                                savoureux</p>
+                                            <div class="button">
+                                                <a href="../Restaurant/Restaurant.html">Voir plus</a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article>
+                                        <img src="../img/slider_up_resto/slider_up_oiseau-bleu.jpg" alt="image">
+                                        <div class="contentOne">
+                                            <div>
+                                                <h2>L'oiseau bleu</h2>
+                                            </div>
+                                            <p>Laissez-vous emporter pour un voyage gustatif hors norme ...</p>
+
+                                            <div class="button">
+                                                <a href="../Restaurant/Restaurant.html">Voir plus</a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid menu-none chambre">
+                    <div class="sous-menu">
+                        <div class="divDining">
+                            <h2>Chambres & Suites</h2>
+                            <div class="divider1"></div>
+                            <p style="width: 250px;">Élégance, chic, patrimoine ; tout ce qui rend Paris spécial se
+                                reflète dans nos chambres et suites..</p>
+                            <p class="button-nav"><a href="../chambre/chambre-principal.html">Les chambres</a></p>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <section class="one">
+                                    <article>
+                                        <img src="../img/slider_up_chambre/slider_up_chambre_deluxe_1.jpg"
+                                            alt="image chambre deluxe">
+                                        <div class="contentOne">
+                                            <div>
+                                                <h2>Chambres</h2>
+                                            </div>
+                                            <p>Élégamment décorées avec un parquet en
+                                                chêne teinté et de magnifiques luminaires Murano....</p>
+                                            <div class="button">
+                                                <a href="../chambre/chambre-deluxe/chambre_deluxe.html">Voir plus</a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article>
+                                        <img src="../img/slider_up_chambre_principal/slider_principal_suite-blanche.jpg"
+                                            alt="image" title="chambre suite">
+                                        <div class="contentOne">
+                                            <div>
+                                                <h2>Suites</h2>
+                                            </div>
+                                            <p>Les plus belles et élégantes suites de Paris s'offrent à vous pour un
+                                                séjour inoubliable ...</p>
+
+                                            <div class="button">
+                                                <a href="../chambre/Chambre-Suites/suites.html">Voir plus</a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid menu-none spa">
+                    <div class="sous-menu">
+                        <div class="divDining">
+                            <h2>Spa</h2>
+                            <div class="divider1"></div>
+                            <p style="width: 250px;">Afin d'harmoniser corps et esprit, nous offrons des soins
+                                personnalisés
+                                issus des dernières avancées dans le domaine du bien-être.</p>
+                            <p class="button-nav"><a href="../Spa/Spa.html">Le Spa</a></p>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <section class="one">
+                                    <article>
+                                        <img src="../img/slider_up_spa/slider_up_spa_10.jpg" alt="image spa"
+                                            title="spa">
+                                        <div class="contentOne">
+                                            <div>
+                                                <h2>Soins & Massages</h2>
+                                            </div>
+                                            <p>Au cœur du Spa en partenariat avec Carita Paris, découvrez nos soins
+                                                signature ...</p>
+                                            <div class="button">
+                                                <a href="../Spa/Spa.html">Voir plus</a>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <article>
+                                        <img src="../img/slider_down_spa/slider_down_entree-spa.jpg" alt="Entrée spa"
+                                            title="spa">
+                                        <div class="contentOne">
+                                            <div>
+                                                <h2>Hammam</h2>
+                                            </div>
+                                            <p>Profitez des bienfaits relaxants et détoxifiants du sauna et hammam et la
+                                                piscine...
+                                            </p>
+
+                                            <div class="button">
+                                                <a href="../Spa/Spa.html">Voir plus</a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!--Mon sous menu mobile -->
+                <div id="sous-menu-mobile">
+                    <div class="profil">
+                        <h2>My profile</h2>
+                        <h3>login</h3>
+                        <div class="macroix">
+                            <p><i class="croix fas fa-times"></i></p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="../../img/logo-fond.png" alt="logo">
+                    </div>
+                    <section class="oneTitre">
+                        <h4>Nos offres</h4>
+                        <div class="divider2"></div>
+                    </section>
+                    <div class="mes-choix">
+                        <p><a href="../index.html">Accueil</a></p>
+                        <p><a href="../Restaurant/Restaurant.html">Restaurants</a></p>
+                        <p><a href="../chambre/chambre-principal.html">Chambres</a></p>
+                        <p><a href="../Spa/Spa.html">Spa</a></p>
+                        <div class="divider2"></div>
+                    </div>
+                    <section class="twoTitre">
+                        <h4>En savoir plus</h4>
+                    </section>
+                    <div class="info">
+                        <p><a href="../index.html#ancreMaps">Accès</a></p>
+                        <p><a href="../Qui-sommes-nous/qui_sommes_nous.html">Qui sommes nous</a></p>
+                        <p><a href="#" data-toggle="modal" data-target="#exampleModal">Nous contacter</a></p>
+                    </div>
+                </div>
+                <!--  FINNNN  de Mon sous menu mobile  -->
+
+            </section>
+           
+        </nav><!-- Fin de ma nav-bar -->
+        <div class="leTitre">
+                        <h1>Les Restaurants</h1>
+                        <div class="d-flex share-header">
+                            <p class="partager" id="toggle-fading"><a href="#"><i class="share-header fas fa-share-alt icon"></i></a></p>
+                            <div class="mesIcones">
+                                <a target="blank" href="mailto:contact@hotelcop.fr"><i
+                                        class="share-header far fa-envelope"></i></a>
+                                <a target="blank" href="https://www.facebook.com/"><i
+                                        class="share-header fab fa-facebook-f"></i></a>
+                                <a target="blank" href="https://www.messenger.com/login.php"><i
+                                        class="share-header fab fa-facebook-messenger"></i></a>
+                                <a target="blank" href="https://web.whatsapp.com/"><i
+                                        class="share-header fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+        <!-- Slider mes images principales qui defilent -->
+        <div class="slider-principal">
+            <div class="your-class">
+                <div><img src="../img/slider_up_resto/slider_up_brasserie_1.jpg" alt="brasserie 1" title="brasserie 1">
+                </div>
+                <div><img src="../img/slider_up_resto/slider_up_oiseau-bleu.jpg" alt="restaurant oiseau bleu"
+                        title="restaurant oiseau bleu"></div>
+                <div><img src="../img/slider_up_resto/slider_up_petit-dejeuner_1.jpg" alt="petit déjeuner"
+                        title="petit déjeuner"></div>
+                <div><img src="../img/slider_up_resto/slider_up_patio_1.jpg" alt="patio" title="patio"></div>
+                <div><img src="../img/slider_up_resto/slider_up_bar_1.jpg" alt="bar Montaigne" title="bar Montaigne">
+                </div>
+            </div>
+        </div>
+        <!-- Fin du slider -->
+    </header>
+
+    <main>
+        <section class="mon-titre-main">
+            <h2>Expérience d’exception au cœur de la Ville Lumière.</h2>
+            <p>L’Hôtel Cop présente une offre de restauration raffinée, sous la direction du Chef Patrick Juhel,
+                Meilleur Ouvrier de France 2000.
+                Au coeur de nos restaurants, le Chef dévoile son savoir-faire exceptionnel au sein d’un décor
+                exeptionnel.
+            </p>
+        </section>
+        <div class="tabs">
+            <div class="container elargir">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home1"
+                            role="tab" aria-controls="nav-home1" aria-selected="true"> La Brasserie Cop</a>
+                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+                            role="tab" aria-controls="nav-profile" aria-selected="false">L'oiseau bleu </a>
+                        <a class="nav-item nav-link" id="nav-contact-tab1" data-toggle="tab" href="#nav-contact"
+                            role="tab" aria-controls="nav-contact" aria-selected="false">Le Patio </a>
+                        <a class="nav-item nav-link" id="nav-contact-tab2" data-toggle="tab" href="#nav-suite1" role="tab"
+                            aria-controls="nav-contact" aria-selected="false">Le bar Montaigne</a>
+                    </div>
+                </nav>
+
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home1" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <br>
+                        <!-- Premier bloc -->
+                        <div class="row secondBloc le-spa no-gutters">
+                            <div class="premierB col-lg-12">
+                                <div class="contient">
+                                    <h4>La Brasserie Cop</h4>
+                                    <h2>Une dégustation d'exception bien méritée</h2>
+                                    <p> Pour des déjeuners ou diners professionnels, entre amis ou en famille, découvrez
+                                        les mythiques plats de brasserie parisienne et notre sélection de crustacés.
+                                    </p>
+                                    <div class="button">
+                                        <a href="#brasserieCop">Plus d'informations</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de mon 1er bloc -->
+
+                    <!-- Deuxieme bloc -->
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="tab-pane fade show active" id="nav-home2" role="tabpanel"
+                            aria-labelledby="nav-home-tab"><br>
+
+                            <div class="row secondBloc le-spa no-gutters">
+                                <div class="premierB col-lg-12">
+                                    <div class="contient">
+                                        <h4>L'oiseau bleu</h4>
+                                        <h2>Laissez-vous emporter pour un voyage gustatif hors norme</h2>
+                                        <p> Partagez un diner entre amis ou en famille et dégustez les mythiques plats
+                                            français pour un moment convivial et savoureux.
+
+                                        </p>
+                                        <div class="button">
+                                            <a href="#oiseauBleu">Plus d'informations</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de mon 2e bloc -->
+
+                    <!-- Troisieme bloc -->
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab1">
+                        <div class="tab-pane fade show active" id="nav-home3" role="tabpanel"
+                            aria-labelledby="nav-home-tab"><br>
+
+                            <div class="row secondBloc le-spa no-gutters">
+                                <div class="premierB col-lg-12">
+                                    <div class="contient">
+                                        <h4>Le Patio</h4>
+                                        <h2>Au cœur de l'hôtel se trouve un confortable et élégant patio</h2>
+                                        <p>Prenez le temps et profitez de ce havre de paix en plein air, au cœur de
+                                            l’hôtel.
+                                            Aux beaux jours, passez d'excellents moments dans ce patio autour d'un
+                                            délicieux gouter, du chef Angelo Musa, entre amis ou en famille.
+                                            En hiver, accordez-vous une pause dans ce cocon parisien chauffé.
+                                        </p>
+                                        <div class="button">
+                                            <a href="#lePatio">Plus d'informations</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fin de mon 3e bloc -->
+                    <div class="tab-pane fade" id="nav-suite1" role="tabpanel" aria-labelledby="nav-contact-tab2">
+                        <div class="tab-pane fade show active" id="nav-suite2" role="tabpanel"
+                            aria-labelledby="nav-home-tab"><br>
+
+                            <!-- Quatre bloc -->
+                            <div class="row secondBloc le-spa no-gutters">
+                                <div class="premierB col-lg-12">
+                                    <div class="contient">
+                                        <h4>Le bar Montaigne</h4>
+                                        <h2>Le Bar Montaigne vous procurera un délicieux vertige</h2>
+                                        <p>La splendeur du lieu unique en son genre dans la Ville Lumière, vous invite à
+                                            la contemplation. Refuge temporaire pour un agréable tête-à-tête en journée,
+                                            et club de jazz une fois la nuit tombée un moment mémorable pour déguster
+                                            des cocktails inédits.
+                                        </p>
+                                        <div class="button">
+                                            <a href="#barMontaigne">Plus d'informations</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Fin de mon 4e bloc -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Mon bloc avec l'image qui depasse sur la gauche 3eme element de mon main -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="blocMainImg">
+                    <div class="main-bloc-img col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                        <div class="img-quartier1">
+                            <img src="../img/slider_down_resto/slider_down_brasserie_1.jpg" alt="brasserie cop"
+                                title="brasserie cop">
+                        </div>
+                        <article id="brasserieCop">
+                            <h5>La Brasserie Cop</h5>
+                            <p> Notre hôtel 5 étoiles bénéficie d’un cadre idyllique. Situé dans le 8ème arrondissement,
+                                l’avenue Montaigne, « avenue de la mode et du luxe de la capitale »,
+                                qui abrite les grandes enseignes de la Haute Couture telles que Chanel, Dior, Louis
+                                Vuitton... <br><br>
+                                Vous êtes à deux pas de la plus belle avenue du monde : l’avenue des Champs Élysées, qui
+                                s’étend de la Place de la Concorde à l’Arc de Triomphe. L’atmosphère du quartier est
+                                unique en son
+                                genre, et vous permettra de profiter de la magie qui règne au sein de capitale
+                                française. <br>
+                                La Brasserie Cop accueille ses convives du petit déjeuner au dîner.
+                            </p>
+                            <div class="button">
+                                <a href="../img/menu_midi.pdf">Voir le menu</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div id="contienBlocThree">
+                    <div class="main-bloc-img col-sm-12 col-md-10 col-lg-10 col-xl-10">
+
+                        <article id="oiseauBleu">
+                            <h5>L'oiseau bleu</h5>
+                            <p> Notre hôtel 5 étoiles bénéficie d’un cadre idyllique. Situé dans le 8ème arrondissement,
+                                l’avenue Montaigne, « avenue de la mode et du luxe de la capitale »,
+                                qui abrite les grandes enseignes de la Haute Couture telles que Chanel, Dior, Louis
+                                Vuitton... <br><br>
+                                Vous êtes à deux pas de la plus belle avenue du monde : l’avenue des Champs Élysées, qui
+                                s’étend de la Place de la Concorde à l’Arc de Triomphe. L’atmosphère du quartier est
+                                unique en son
+                                genre, et vous permettra de profiter de la magie qui règne au sein de capitale
+                                française. <br>
+                                L'oiseau bleu vous accueille pour le diner. Le chef dévoile des menus classiques
+                                revisités sublimant les produits d’exception français et leur interprétation
+                                traditionnelle.
+                            </p>
+                            <div class="button">
+                                <a href="../img/menu_soir.pdf">Voir le menu</a>
+                            </div>
+                        </article>
+                        <div class="img-quartier">
+                            <img src="../img/slider_up_resto/slider_up_oiseau-bleu.jpg" alt="restaurant oiseau bleu"
+                                title="restaurant oiseau bleu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="blocMainImg">
+                    <div class="main-bloc-img col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                        <div class="img-quartier">
+                            <img src="../img/slider_up_resto/slider_up_patio_1.jpg" alt="patio" title="patio">
+                        </div>
+                        <article id="lePatio">
+                            <h5>Le patio</h5>
+                            <p> Notre hôtel 5 étoiles bénéficie d’un cadre idyllique. Situé dans le 8ème arrondissement,
+                                l’avenue Montaigne, « avenue de la mode et du luxe de la capitale »,
+                                qui abrite les grandes enseignes de la Haute Couture telles que Chanel, Dior, Louis
+                                Vuitton... <br><br>
+                                Vous êtes à deux pas de la plus belle avenue du monde : l’avenue des Champs Élysées, qui
+                                s’étend de la Place de la Concorde à l’Arc de Triomphe. L’atmosphère du quartier est
+                                unique en son
+                                genre, et vous permettra de profiter de la magie qui règne au sein de capitale
+                                française. <br>
+                                Le patio sert des boissons toute la journée ainsi qu'un gouter de 15h à 17h.
+                            </p>
+                            <div class="button">
+                                <a href="../img/menu_apres-midi.pdf">Voir le menu</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div id="contienBlocTwo">
+                    <div class="main-bloc-img col-sm-12 col-md-10 col-lg-10 col-xl-10">
+
+                        <article id="barMontaigne">
+                            <h5>Le bar Montaigne</h5>
+                            <p> Notre hôtel 5 étoiles bénéficie d’un cadre idyllique. Situé dans le 8ème arrondissement,
+                                l’avenue Montaigne, « avenue de la mode et du luxe de la capitale »,
+                                qui abrite les grandes enseignes de la Haute Couture telles que Chanel, Dior, Louis
+                                Vuitton... <br><br>
+                                Vous êtes à deux pas de la plus belle avenue du monde : l’avenue des Champs Élysées, qui
+                                s’étend de la Place de la Concorde à l’Arc de Triomphe. L’atmosphère du quartier est
+                                unique en son
+                                genre, et vous permettra de profiter de la magie qui règne au sein de capitale
+                                française. <br>
+                                Le spectaculaire bar Montaigne propose des cocktails tout au long de la soirée au sein
+                                d’une atmosphère jazz intimiste.
+                            </p>
+                        </article>
+
+                        <div class="img-quartier1">
+                            <img src="../img/slider_down_resto/slider_down_bar_1.jpg" alt="bar Montaigne"
+                                title="bar Montaigne">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="blocMainImg">
+                    <div class="main-bloc-img col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                        <div class="img-quartier patrick">
+                            <img src="../img/Patrick-JUHEL-MOF-Cuisinier-2.jpg" alt="chef cuisinier"
+                                title="Patrick Juhel">
+                        </div>
+                        <article>
+                            <h5>Le Chef Patrick Juhel</h5>
+                            <p>Après l’obtention de mon CAP de Cuisine à Saint Nazaire, j’ai décidé de rejoindre Paris
+                                où je suis rentré au Sheraton Paris Montparnasse en tant que commis auprès de Mr Georges
+                                Buffeteau, Meilleur Ouvrier de France Cuisine. Il m’a très vite donné l’envie de me
+                                surpasser aussi bien dans le cadre de mon travail quotidien qu’en participant à
+                                différents concours : Arpajon, Romorantin. Enfin, je décide de revenir en région
+                                parisienne en avril 2015 pour l’ouverture de Ferrières, Ecole de l’Excellence à la
+                                Française, dédiée aux métiers de la gastronomie et de l’hôtellerie. <br>
+                                <br>
+
+                                <strong>Distinctions : </strong> <br>
+                                Chevalier de l’Ordre National du Mérite <br>
+                                Officier de l’Ordre du Mérite Agricole <br>
+                                Chevalier dans l’Ordre des Palmes Académiques <br>
+                                Chef Patrick Juhel
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider mes images principales qui defilent -->
+        <div class="slider-footer">
+            <div class="your-class">
+                <div><img src="../img/slider_down_resto/slider_down_oiseau-bleu.jpg" alt="restaurant l'oiseau bleu"
+                        title="restaurant l'oiseau bleu"></div>
+                <div><img src="../img/slider_down_resto/slider_down_brasserie_1.jpg" alt="brasserie_1"
+                        title="brasserie_1"></div>
+                <div><img src="../img/slider_down_resto/slider_down_brasserie_2.jpg" alt="brasserie_2"
+                        title="brasserie_2"></div>
+                <div><img src="../img/slider_down_resto/slider_down_patio_1.jpg" alt="patio_1" title="patio_1"></div>
+                <div><img src="../img/slider_down_resto/slider_down_patio_2.jpg" alt="patio_2" title="patio_2"></div>
+                <div><img src="../img/slider_down_resto/slider_down_patio_3.jpg" alt="patio_3" title="patio_3"></div>
+                <div><img src="../img/slider_down_resto/slider_down_petit-dejeuner_1.jpg" alt="petit-dejeuner_1"
+                        title="petit-dejeuner_1"></div>
+                <div><img src="../img/slider_down_resto/slider_down_petit-dejeuner_2.jpg" alt="petit-dejeuner_2"
+                        title="petit-dejeuner_2"></div>
+                <div><img src="../img/slider_down_resto/slider_down_plat_1.jpg" alt="plat_1" title="plat_1"></div>
+                <div><img src="../img/slider_down_resto/slider_down_plat_2.jpg" alt="plat_2" title="plat_2"></div>
+                <div><img src="../img/slider_down_resto/slider_down_plat_3.jpg" alt="plat_3" title="plat_3"></div>
+                <div><img src="../img/slider_down_resto/slider_down_plat_4.jpg" alt="plat_4" title="plat_4"></div>
+                <div><img src="../img/slider_down_resto/slider_down_plat_5.jpg" alt="plat_5" title="plat_5"></div>
+                <div><img src="../img/slider_down_resto/slider_down_plat_6.jpg" alt="plat_6" title="plat_6"></div>
+                <div><img src="../img/slider_down_resto/slider_down_gouter_1.jpg" alt="gouter_1" title="gouter_1"></div>
+                <div><img src="../img/slider_down_resto/slider_down_gouter_2.jpg" alt="gouter_2" title="gouter_2"></div>
+                <div><img src="../img/slider_down_resto/slider_down_gouter_3.jpg" alt="gouter_3" title="gouter_3"></div>
+                <div><img src="../img/slider_down_resto/slider_down_bar_1.jpg" alt="bar_1" title="bar_1"></div>
+                <div><img src="../img/slider_down_resto/slider_down_bar_2.jpg" alt="bar_2" title="bar_2"></div>
+            </div>
+        </div>
+    </main>
+
+
+   <!-- Modal -->
+   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+   aria-hidden="true">
+   <div class="modal-dialog" role="document">
+       <div class="modal-content">
+           <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel"><i class="fas fa-envelope"></i>Contactez nous</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+               </button>
+           </div>
+           <div class="modal-body">
+               <form class="needs-validation" novalidate>
+                   <div class="d-flex ">
+                       <div class="form-group">
+                           <label for="exampleInputEmail1">Nom</label>
+                           <input type="text" class="form-control" id="exampleInputEmail1"
+                               aria-describedby="exampleInputEmail1" required>
+                           <div class="invalid-feedback">
+                               Veuillez écrire votre nom
+                           </div>
+                       </div>
+
+                       <div class="form-group offset-1">
+                           <label for="exampleInputPassword2">Prénom</label>
+                           <input type="text" class="form-control" id="exampleInputPassword2" required>
+                           <div class="invalid-feedback">
+                               Veuillez écrire votre prénom
+                           </div>
+                       </div>
+                   </div>
+
+               <div class="d-flex ">
+                   <div class="form-group">
+                       <label for="exampleInputPassword3">Entreprise</label>
+                       <input type="text" class="form-control" id="exampleInputPassword3">
+                   </div>
+
+                   <div class="form-group offset-1">
+                       <label for="exampleInputPassword4">Email</label>
+                       <input type="email" class="form-control" id="exampleInputPassword4" required>
+                       <div class="invalid-feedback">
+                           Veuillez écrire votre email
+                       </div>
+                   </div>
+               </div>
+
+               <div class="d-flex ">
+                   <div class="form-group">
+                       <label for="exampleInputPassword8">Téléphone</label>
+                       <input type="tel" class="form-control" id="exampleInputPassword8">
+                   </div>
+
+                   <div class="form-group offset-1">
+                       <label for="exampleInputPassword5">Pays</label>
+                       <input type="text" class="form-control" id="exampleInputPassword5" required>
+                       <div class="invalid-feedback">
+                           Veuillez indiquer votre pays
+                       </div>
+                   </div>
+               </div>
+
+               <div class="d-flex ">
+                   <div class="form-group">
+                       <label for="exampleInputPassword6">Sujet</label>
+                       <input type="text" class="form-control" id="exampleInputPassword6" required>
+                       <div class="invalid-feedback">
+                           Veuillez indiquer le sujet
+                       </div>
+                   </div>
+
+                   <div class="form-group offset-1">
+                       <label for="exampleInputPassword7">Catégorie</label>
+                       <select class="form-control" id="exampleInputPassword7" required>
+                           <option value="" selected>Choisissez...</option>
+                           <option>Chambre</option>
+                           <option>Restaurant</option>
+                           <option>Spa</option>
+                           <option>Autre</option>
+                       </select>
+                   </div>
+               </div>
+
+                   <div class="form-group">
+                       <label for="exampleInputPassword9">Message</label>
+                       <textarea class="form-control" id="exampleInputPassword9" required></textarea>
+                       <div class="invalid-feedback">
+                           Veuillez écrire votre message
+                       </div>
+                   </div>
+
+                   <button type="submit" class="btn btn-primary"
+                       style="background-color: #AC9563; border: none;">Envoyer</button>
+               </form>
+           </div>
+           <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+           </div>
+       </div>
+   </div>
+</div>
+
+<!-- FIN MODAL-->
+
+    <footer>
+        <div class="container-fluid banniere-footer-displ">
+            <!-- Il se met en display none a moins de media(500) -->
+            <div class="row">
+                <div class="banniere-footer d-flex col-lg-12">
+                    <p><a href="#" data-toggle="modal" data-target="#exampleModal">Contact</a></p>
+                    <p><a href="../recrutement/recrutement.html">Recrutement</a></p>
+                    <p><a href="../presse_actu_event/presse.html">presse</a></p>
+                    <p><a href="../Avis/avis.html">Avis</a></p>
+                    <p><a href="../plan_du_site/plan_du_site.html">Plan du site</a></p>
+                    <p><a href="#" OnClick="javascript:window.print()">Imprimer la page</a></p>
+
+                    <div class="reseaux">
+                        <ul>
+                            <li class="connect">Suivez-nous</li>
+                            <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://www.pinterest.com"><i class="fab fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dans la partie noir de mon footer -->
+        <div class="footer-logo">
+            <p><img src="../img/logo-or.png" alt="logo"></p>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="fin-footer">
+                    <div class="contact-footer">
+                        <h6>Informations</h6>
+                        <p><a href="../Qui-sommes-nous/qui_sommes_nous.html">À propos de nous</a></p>
+                        <p><a href="../recrutement/recrutement.html">Carrières</a></p>
+                        <p><a href="../presse_actu_event/actualités.html">Actualités</a></p>
+                        <p><a href="#" data-toggle="modal" data-target="#exampleModal">Nous contacter</a></p>
+                    </div>
+                    <div class="objectif">
+                        <h6>Liens utiles</h6>
+                        <p><a href="../reservation/reserve.html">Réservations</a></p>
+                        <p><a href="../presse_actu_event/event.html">Événements</a></p>
+                        <p><a href="../cgv/mentions_legales.html">Mentions légales</a></p>
+                        <p><a href="../cgv/cgv.html">CGV</a></p>
+                    </div>
+                    <div class="news">
+                        <!-- Display none a moins de media(630) -->
+                        <h6>Recevoir nos offres</h6>
+                        <form>
+                            <input type="text" name="offre" id="mon-inputFooter" required>
+                            <input type="submit" value="OK">
+                        </form>
+                    </div>
+                </div>
+                <p class="monAdresse">1 Avenue Montaigne 75008 Paris | | 01 00 00 00 00 | | <span class="maito"> <a
+                            href="mailto:">contact@hotelcop.fr</a> </span></p>
+                <div class="divider2"></div>
+                <div class="fin">
+                    <p>©Hotelcop Limited 2020. Tous les droits sont réservés.</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!-- cdn Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <!-- Fin de cdn bootstrap  -->
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/2c505c2fd3.js" crossorigin="anonymous"></script>
+    <!-- Fin de cdn font awesome -->
+
+
+    <!-- CDN pour jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- src pour slick -->
+    <script src="../chambre/slick-1.5.0/slick/slick.min.js"></script>
+    <!-- Src pour mon js -->
+    <script src="../chambre/js-principal/chambre.js"></script>
+
+</body>
+
+</html>

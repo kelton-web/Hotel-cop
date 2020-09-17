@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGV</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="css-cgv/cgv.css">
+    <link rel="stylesheet" href="../media/media-accueil.css">
+    <link rel="icon" type="image/png" href="../img/logo-test.png"/>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <!-- Bootstrap -->
+
+    <meta name="description" content="Réservez votre séjour dans le plus mythique des hôtels 5 étoiles à Paris, à deux pas de l'avenue des Champs Élysées, bénéficie d'un cadre idyllique. 
+    et vous ouvre les portes d'un monde d'élégance et de raffinement au coeur de la ville Lumière. Chambre et Suites grand luxe avec une vue époustouflante sur la tour Eiffel. Nos restaurants 
+    gastronomiques feront de votre séjour un moment gustatif remarquable. Après votre virée dans la ville, venez vous relaxer dans notre spa à l'ambiance chaleureuse et au décor somptueux.">
+    <meta name="publisher" content="Kelton Semedo et Neeta Sawmynaden">
+    <META NAME= "Category" CONTENT= "hôtel 5 étoiles avenue Montaigne Paris">
+    <meta name="keyword" content="hôtel, palace, luxe, spa, chambre, suite, gastronomie, tour Eiffel, ">
+    <meta property="og:site_name" content="Hôtel Cop Paris" />
+    <meta property="og:type" content="site web" />
+    <meta property="og:url" content="https://www.hotelcop.com/" />
+    <meta property="og:title" content="Hôte Cop / Cgv"/>
+    <meta property="og:image" content="../img/logo-or.png"/>
+    <meta property="og:description" content="Réservez votre séjour dans le plus mythique des hôtels 5 étoiles à Paris, à deux pas de l'avenue des Champs Élysées, bénéficie d'un cadre idyllique. 
+    et vous ouvre les portes d'un monde d'élégance et de raffinement au coeur de la ville Lumière. Chambre et Suites grand luxe avec une vue époustouflante sur la tour Eiffel. Nos restaurants 
+    gastronomiques feront de votre séjour un moment gustatif remarquable. Après votre virée dans la ville, venez vous relaxer dans notre spa à l'ambiance chaleureuse et au décor somptueux." />
+    <meta property="og:local" content="français"/>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Font-google -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--Header -->
+    <header>
+        <!-- Ma nav-bar  -->
+        <nav class="nav-bar">
+            <!-- Ma premiere nav bar-->
+            <section class="NavTitre">
+                <div class="paragraphe">
+                    <p><a href="#resto">> DÉCOUVREZ NOS OFFRES</a></p>
+                </div>
+
+                <div class="nav-Haut">
+                    <p><a class="none" href="../index.html#ancreMaps">Accès</a></p>
+                    <p><a class="none" href="../Qui-sommes-nous/qui_sommes_nous.html">Qui-sommes-nous </a></p>
+                    <p><a href="#" data-toggle="modal" data-target="#exampleModal">Contact </a></p>
+                    <p><a href="#">EN/FR</a></p>
+                </div>
+            </section>
+            <!-- Second nav bar -->
+            <section class="navBar">
+                <div class="mon-ul-navbar">
+                    <p><img onclick="window.location.href='../index.html'" src="../img/logo-or.png" alt="logo hotelcop"></p>
+                    <ul class="navListe">
+                        <li><a href="../index.html"> Accueil</a></li>
+                        <li><a class="diner" href="#"> Restaurants</a></li>
+                        <li><a class="chamb" href="#"> Chambres</a></li>
+                        <li><a class="spaning" href="#"> Spa</a></li>
+                    </ul>
+
+                    <div class="search">
+                        <input type="text" placeholder="Recherche">
+                        <span><i class="fas fa-search recherche"></i></span>
+                        <p id="burger"><svg id="barNav" width="1em" height="1em" viewBox="0 0 16 16"
+                                class="bi bi-filter-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container-fluid menu-none dining">
+                    <div class="sous-menu">
+                        <div class="divDining">
+                            <h2>Restaurants</h2>
+                            <div class="divider1"></div>
+                            <p style="width: 250px;">Nous vous proposons une restauration haut de gamme répondant à vos
+                                attentes et vos besoins..</p>
+                            <p class="button-nav"><a href="../Restaurant/Restaurant.html">Les Restaurants</a></p>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <section class="one">
+                                    <article>
+                                        <img src="../img/slider_up_resto/slider_up_brasserie_1.jpg" alt="image">
+                                        <div class="contentOne">
+                                            <div>
+                                                <h2>La brasserie Cop</h2>
+                                            </div>
+                                            <p>Dégustez les mythiques plats français pour un moment convivial et
+                                                savoureux</p>
+                                            <div class="button">
+                                                <a href="../Restaurant/Restaurant.html">Voir plus</a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article>
+                                        <img src="../img/slider_up_resto/slider_up_oiseau-bleu.jpg" alt="image">
+                                        <div class="contentOne">
+                                            <div>
+                                                <h2>L'oiseau bleu</h2>
+                                            </div>
+                                            <p>Laissez-vous emporter pour un voyage gustatif hors norme ...</p>
+    
+                                            <div class="button">
+                                                <a href="../Restaurant/Restaurant.html">Voir plus</a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </section>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+    
+                <div class="container-fluid menu-none chambre">
+                    <div class="sous-menu">
+                        <div class="divDining">
+                            <h2>Chambres & Suites</h2>
+                            <div class="divider1"></div>
+                            <p style="width: 250px;">Élégance, chic, patrimoine ; tout ce qui rend Paris spécial se
+                                reflète dans nos chambres et suites..</p>
+                            <p class="button-nav"><a href="../chambre/chambre-principal.html">Les chambres</a></p>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <section class="one">
+                                    <article>
+                                        <img src="../img/slider_up_chambre/slider_up_chambre_deluxe_1.jpg" alt="image chambre deluxe">
+                                        <div class="contentOne">
+                                            <div>
+                                                <h2>Chambres</h2>
+                                            </div>
+                                            <p>Élégamment décorées avec un parquet en
+                                                chêne teinté et de magnifiques luminaires Murano....</p>
+                                            <div class="button">
+                                                <a href="../chambre/chambre-deluxe/chambre_deluxe.html">Voir plus</a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article>
+                                        <img src="../img/slider_up_chambre_principal/slider_principal_suite-blanche.jpg" alt="image" title="chambre suite">
+                                        <div class="contentOne">
+                                            <div>
+                                                <h2>Suites</h2>
+                                            </div>
+                                            <p>Les plus belles et élégantes suites de Paris s'offrent à vous pour un
+                                                séjour inoubliable ...</p>
+    
+                                            <div class="button">
+                                                <a href="../chambre/Chambre-Suites/suites.html">Voir plus</a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="container-fluid menu-none spa">
+                    <div class="sous-menu">
+                        <div class="divDining">
+                            <h2>Spa</h2>
+                            <div class="divider1"></div>
+                            <p style="width: 250px;">Afin d'harmoniser corps et esprit, nous offrons des soins
+                                personnalisés
+                                issus des dernières avancées dans le domaine du bien-être.</p>
+                            <p class="button-nav"><a href="../Spa/Spa.html">Le Spa</a></p>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <section class="one">
+                                    <article>
+                                        <img src="../img/slider_up_spa/slider_up_spa_10.jpg" alt="image spa" title="spa">
+                                        <div class="contentOne">
+                                            <div>
+                                                <h2>Soins & Massages</h2>
+                                            </div>
+                                            <p>Au cœur du Spa en partenariat avec Carita Paris, découvrez nos soins
+                                                signature ...</p>
+                                            <div class="button">
+                                                <a href="../Spa/Spa.html">Voir plus</a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article>
+                                        <img src="../img/slider_down_spa/slider_down_entree-spa.jpg" alt="Entrée spa" title="spa">
+                                        <div class="contentOne">
+                                            <div>
+                                                <h2>Hammam</h2>
+                                            </div>
+                                            <p>Profitez des bienfaits relaxants et détoxifiants du sauna et hammam et la piscine...
+                                            </p>
+    
+                                            <div class="button">
+                                                <a href="../Spa/Spa.html">Voir plus</a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </section>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                
+                <!--Mon sous menu mobile -->
+                <div id="sous-menu-mobile">
+                    <div class="profil">
+                        <h2>My profile</h2>
+                        <h3>login</h3>
+                        <div class="macroix">
+                            <p><i class="croix fas fa-times"></i></p>
+    
+                        </div>
+                    </div>
+                    <div>
+                        <img src="../../img/logo-fond.png" alt="logo">
+                    </div>
+                    <section class="oneTitre">
+                        <h4>Nos offres</h4>
+                        <div class="divider2"></div>
+                    </section>
+                    <div class="mes-choix">
+                        <p><a href="../index.html">Accueil</a></p>
+                        <p><a href="../Restaurant/Restaurant.html">Restaurants</a></p>
+                        <p><a href="../chambre/chambre-principal.html">Chambres</a></p>
+                        <p><a href="../Spa/Spa.html">Spa</a></p>
+                        <div class="divider2"></div>
+                    </div>
+                    <section class="twoTitre">
+                        <h4>En savoir plus</h4>
+                    </section>
+                    <div class="info">
+                        <p><a href="../index.html#ancreMaps">Accès</a></p>
+                        <p><a href="../Qui-sommes-nous/qui_sommes_nous.html">Qui sommes nous</a></p>
+                        <p><a href="#" data-toggle="modal" data-target="#exampleModal">Nous contacter</a></p>
+                    </div>
+                </div>
+                <!-- FINNNN  de Mon sous menu mobile -->
+            </section>
+        </nav>
+    </header>
+    <!--Fin Header -->
+
+    <!--Titre sur mon slide principal-->
+    <main>
+        <div class="container monTitrePrincipal">
+            <h1>CONDITIONS GÉNÉRALES DE VENTE</h1>
+            <div class="d-flex share-header">
+                <p class="partager" id="toggle-fading"><a href="#"><i class="share-header fas fa-share-alt icon"></i></a></p>
+                <div class="mesIcones">
+                    <a target="blank" href="contact@hotelcop.fr"><i class="share-header far fa-envelope"></i></a>
+                    <a target="blank" href="https://www.facebook.com/"><i
+                            class="share-header fab fa-facebook-f"></i></a>
+                    <a target="blank" href="https://www.messenger.com/login.php"><i
+                            class="share-header fab fa-facebook-messenger"></i></a>
+                    <a target="blank" href="https://web.whatsapp.com/"><i
+                            class="share-header fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <!------------------------------ Fin------------------->
+        <div class="monTexte">
+            <p>Le site web accessible à l’adresse url www.contact@hotelcop.com est détenu et édité par la société HOTEL
+                COP
+                PARIS, société par actions simplifiée
+                à associé unique au capital de 48 192 919 euros, immatriculée au Registre du commerce et des sociétés de
+                Paris sous le numéro 504 196 999, dont le siège social
+                est situé 209 rue de l’Université, 75007 Paris, et dont le numéro de TVA intracommunautaire est le FR72
+                504
+                196 999. Pour toute information, nous vous invitons à vous adresser à contact@hotelcop.com.</p>
+
+
+            <div class="show1 texteTop">
+                <h2>INTRODUCTION<i
+                        class="fas fa-caret-down"></i></h2>
+            </div>
+            <div class="para1">
+                <p>1.1 Le Site permet la réservation de chambres et de prestations complémentaires au sein de l'hôtel
+                    Hôtel Cop
+                    (ci-après les « Hôtels ») par les clients.</p>
+                <p>1.2 Les présentes conditions générales de vente (les « Conditions Générales de Vente ») sont
+                    applicables à la
+                    réservation de chambres et de prestations complémentaires au sein des Hôtels (les « Prestations »)
+                    et sont
+                    celles en vigueur à la
+                    date de confirmation de votre réservation sur les Sites. Elles annulent et remplacent toutes
+                    conditions
+                    générales de vente antérieurement mise en ligne et/ou acceptée par le Client.</p>
+                <p>1.3 Toute réservation sur les Sites nécessite la consultation et l’acceptation sans réserve ni
+                    condition des
+                    Conditions Générales de Vente. Il est recommandé de télécharger
+                    et/ou d’imprimer les Conditions Générales de Vente afin d’en conserver une copie au jour d’une
+                    réservation,
+                    dès lors que celles-ci sont susceptibles de modifications. Néanmoins,
+                    toute modification intervenant après la confirmation d’une réservation ne pourra être appliquée à
+                    cette
+                    réservation.</p>
+                <p>1.4 L’acceptation par le Client des Conditions Générales de Vente et des conditions, notamment
+                    financières,
+                    de chaque réservation effectuée intervient en procédant à la
+                    réservation « En choisissant de réserver, je reconnais avoir lu et accepté les Conditions Générales
+                    de Vente
+                    et la Politique de Vie Privée du groupe Inwood » ou toute
+                    autre case similaire proposée sur les Sites.</p>
+                <p>1.5 Le Client reconnaît disposer de toutes les informations nécessaires sur les Sites, qui comportent
+                    notamment :</p>
+                <ul>
+                    <li>les coordonnées complètes de la société HOTEL COP PARIS, pouvant être consultées dans la
+                        rubrique «
+                        Conditions Générale d’utilisation du Site »,</li>
+                    <li>les caractéristiques principales et essentielles des hébergements et prestations complémentaires
+                        proposés aux clients,</li>
+                    <li>les présentes Conditions Générales, les conditions particulières applicables à chaque offre
+                        et/ou
+                        hébergement et/ou prestation(s) complémentaires et la Politique de Vie Privée,</li>
+                    <li>le tarif des hébergements et prestations complémentaires proposés aux clients,</li>
+                    <li>le nombre d’hébergements maximum pouvant être réservés par un Client,</li>
+                    <li>les modalités et moyens de paiement acceptés,</li>
+                    <li>la durée du contrat conclu entre le client et les Hôtels.</li>
+                </ul>
+                <p>1.6 L’expression « Client(s) » désigne toute personne physique qui effectue une commande sur les
+                    Sites, en
+                    qualité de consommateur, à des fins privées ou professionnelles,
+                    mais sans rapport avec l’hôtellerie.</p>
+                <p>1.7 Etant un consommateur, le Client bénéficie de droits pouvant être remis en cause dans l’hypothèse
+                    où les
+                    Prestations seraient réservées par lui dans le
+                    cadre de l’exercice d’une activité professionnelle, commerciale, industrielle, artisanale ou
+                    libérale.</p>
+                <p>1.8 Seuls les Clients (i) ayant atteint l’âge de la majorité (dix-huit dans la plupart des pays) et
+                    (ii)
+                    ayant la capacité juridique de conclure des contrats,
+                    sont autorisés à commander des Prestations sur les Sites.</p>
+                <p>1.9 Les informations fournies par les Sites sont présentées en langue française, ainsi que dans
+                    plusieurs
+                    langues étrangères.</p>
+            </div>
+
+            <div class="show2">
+                <h2>OBJET<i class="fas fa-caret-down"></i></h2>
+            </div>
+            <div class="para2">
+                <p>2.1 Les Conditions Générales de Vente définissent les termes et conditions applicables à la
+                    réservation en
+                    ligne sur les Sites de Prestations.</p>
+                <p>2.2 Les Conditions Générales de Vente ne régissent pas l’offre, la réservation ou la commande de
+                    Prestations
+                    proposées par des entités autres que HOTEL COP PARIS
+                    et sur d’autres sites Internet et/ou applications mobiles. Nous vous recommandons, avant de
+                    confirmer toute
+                    commande de Prestations au travers de sites Internet ou
+                    applications mobiles de tiers, de vérifier leurs conditions générales de vente, dès lors que HOTEL
+                    COP PARIS
+                    ne peut en aucun cas être tenue responsable de la fourniture de
+                    Prestations proposées par des tiers.</p>
+                <p>2.4 Les Conditions Générales de Vente sont applicables à l’ensemble des étapes de réservation de
+                    Prestations
+                    par le Client et au suivi de sa réservation.</p>
+            </div>
+
+            <div class="show3">
+                <h2>RÉSERVATION<i class="fas fa-caret-down"></i></h2>
+            </div>
+            <div class="para3">
+                <p>3.1 Les Sites proposent un processus de réservation en ligne de chambre d’hôtel pour un nombre
+                    maximum de
+                    quatre (4) chambres par réservation, et de prestations complémentaires.</p>
+                <p>3.2 Les offres d’hébergement présentées sur les Sites sont accompagnées d’une fiche de renseignement
+                    comprenant :</p>
+                <ul>
+                    <li>le cas échéant, le type d’offre commercial applicable (par exemple : « Réservez maintenant et
+                        payez
+                        moins », « Dernière minute promotion -10% », « Tarif flexible »,
+                        « Chambre et petit déjeuner », « Votre anniversaire à l’hôtel »…),</li>
+                    <li>une description de la ou les chambre(s) concernée(s),</li>
+                    <li>les services annexes compris dans l’offre,</li>
+                    <li>les conditions d’annulation et de modification applicables à la réservation,</li>
+                    <li>le cas échéant, les conditions particulières de vente applicables,</li>
+                    <li>les conditions et modalités de paiement,</li>
+                    <li>les Conditions Générales de Vente.</li>
+                </ul>
+                <p>3.3 Les Sites proposent, de façon occasionnelle et pour certains Hôtels en particulier, des offres
+                    commerciales n’étant accessibles que sur les Sites, à l’exclusion
+                    de tout autre site de tiers, telles que notamment les offres temporaires dénommées « Meilleur tarif
+                    garanti
+                    » ou « Secret Hotel ». Le cas échéant, le Client est invité
+                    à consulter les conditions particulières applicables à ces offres, qui sont portées à sa
+                    connaissance au
+                    moment de la réservation. Ces offres commerciales peuvent être
+                    modifiées à tout moment par HOTEL COP PARIS, qui n’est contractuellement engagé que par les
+                    réservations
+                    validées par le Client et ne peut voir sa responsabilité engagée pour
+                    la modification ou le retrait d’une offre commerciale sur les Sites.</p>
+                <p>3.4 Le Client sélectionne les Prestations proposées sur les Sites. Il est seul responsable du choix
+                    des
+                    Prestations et de leur adéquation à ses besoins,
+                    de sorte que la responsabilité de HOTEL COP PARIS ne peut pas être engagée à cet égard.</p>
+                <p>3.5 Le Client peut réserver sur les Sites un nombre maximum de quatre (4) chambres. Pour toute
+                    réservation
+                    d’un nombre supérieur de chambre ou pour
+                    toute autre demande de prestation n’apparaissant pas sur les Sites, nous vous invitons à contacter
+                    directement HOTEL COP PARIS ou l’Hôtel souhaité.
+                    En cas de réservation de cinq (5) chambres ou plus, des conditions de groupe peuvent être
+                    appliquées,
+                    impliquant en contrepartie le versement d’arrhes
+                    par le Client et l’application de conditions particulières d’annulation et de modification. Pour
+                    toute
+                    information à cet égard, merci de contacter HOTEL COP PARIS ou l’Hôtel souhaité.</p>
+                <p>3.6 La réservation est réputée acceptée par le Client à l’issue du processus de réservation.</p>
+                <p>3.7 Le Client atteste de la véracité et de l’exactitude des informations transmises lors de la
+                    réservation de
+                    Prestations. HOTEL COP PARIS se réserve le droit de ne pas donner
+                    suite à toute réservation émanant d’une personne qui ferait une utilisation frauduleuse des Sites ou
+                    qui ne
+                    respecterait pas les présentes Conditions Générales de Vente.</p>
+            </div>
+
+            <div class="show4"><h2>PROCESSUS DE RÉSERVATION<i class="fas fa-caret-down"></i></h2></div>
+            <div class="para4">
+                <p>4.1 Les réservations sont effectuées par le Client au moyen d’un bon de réservation dématérialisé
+                    accessible
+                    sur les Sites.</p>
+                <p>4.2 Lors de la réservation, le Client doit fournir un certain nombre de données obligatoires, dont
+                    certaines
+                    données personnelles nécessaires au traitement de la réservation
+                    par HOTEL COP PARIS, qui se réserve le droit de refuser toute réservation en l’absence de ces
+                    données ou en
+                    raison de leur caractère erroné. Le Client doit en outre indiquer le
+                    nombre de personnes bénéficiant des Prestations, ainsi que leur âge, tout mineur âgé de plus de 13
+                    ans étant
+                    considéré comme un adulte.</p>
+                <p>4.3 La procédure de réservation sur les Sites comprend notamment les étapes suivantes :</p>
+                <ul>
+                    <li>Etape 1 : Sélection sur la page d’accueil du Site www.inwood-hotels.com, de la date d’arrivée,
+                    </li>
+                    <li>Etape 2 : Ouverture d’une page sécurisée indiquant les offres disponibles pour l’Hôtel
+                        sélectionné et la
+                        date indiquée, et offrant au Client la possibilité de préciser ou de
+                        modifier l’un quelconque des choix effectués (dates d’arrivée et de départ, nombre de
+                        chambre(s), nombre
+                        de personnes…),</li>
+                    <li>Etape 3 : Consultation et sélection d’une offre,</li>
+                    <li>Etape 4 : Sélection, le cas échéant, d’une ou plusieurs Prestations complémentaires,</li>
+                    <li>Etape 5 : Vérification du détail de la réservation, de son prix total et des conditions
+                        applicables et
+                        modification éventuelle des choix effectués,</li>
+                    <li>Etape 6: Fourniture par le Client de ses coordonnées,</li>
+                    <li>Etape 7: Saisie des coordonnées bancaires en cas de demande de garantie ou de prépaiement,</li>
+                    <li>Etape 8 : Consultation et acceptation des Conditions Générales de Vente, de la Politique de Vie
+                        Privée
+                        et, le cas échéant, des conditions de vente particulières avant la
+                        validation de la réservation par le Client,</li>
+                    <li>Etape 9 : Validation de la réservation par le Client.</li>
+                </ul>
+            </div>
+
+            <div class="show5">
+                <h2>CONFIRMATON DE LA RÉSERVATION<i class="fas fa-caret-down"></i></h2>
+            </div>
+            <div class="para5">
+                <p>5.1 Les Sites accusent réception de la réservation effectuée par le Client par l’envoi d’un e-mail
+                    comportant
+                    (i) le numéro de réservation correspondant,
+                    (ii) le récapitulatif de la réservation et notamment les Prestations réservées, le prix des
+                    Prestations, les
+                    conditions de vente applicables au tarif sélectionné,
+                    acceptées par le Client, (iii) les Conditions Générales de Vente, le cas échéant, les informations
+                    relatives
+                    au service après-vente ainsi que l’adresse de contact à
+                    laquelle les réclamations peuvent être présentées.</p>
+                <p>5.2 La réservation est réputée ferme et définitive dès la réception de cet e-mail de confirmation de
+                    réservation envoyé par HOTEL COP PARIS au Client.</p>
+                <p>5.3 La durée du contrat conclu entre le Client et l’Hôtel correspond à la durée de la Prestation
+                    d’hébergement prévue par la réservation.</p>
+            </div>
+
+            <div class="show6">
+                <h2>ANNULATION OU MODIFICATION D’UNE RÉSERVATION PAR LE CLIENT<i class="fas fa-caret-down"></i></h2>
+            </div>
+            <div class="para6">
+                <p>6.1 En application de l’article L.121-21-8 du Code de la consommation, les Prestations proposées sur
+                    les
+                    Sites ne permettent pas l’exercice du droit de
+                    rétractation prévu aux articles L.121-21 et suivants du Code de la consommation en matière de
+                    contrats de
+                    vente à distance.</p>
+                <p>6.2 Les conditions de vente du tarif réservé précisent les modalités d’annulation et/ou de
+                    modification de la
+                    réservation.</p>
+                <p>6.3 Les réservations avec prépaiement ne peuvent faire l’objet d’aucune modification et/ou
+                    annulation. Les
+                    sommes versées d’avance constituant des arrhes, elles ne pourront
+                    faire l’objet d’aucun remboursement, ce qui sera indiqué dans les conditions de vente du tarif
+                    portées à la
+                    connaissance du Client et acceptées par lui.</p>
+                <p>6.4 Lorsque l’annulation d’une réservation est possible, un lien spécifique « annuler une commande »
+                    est
+                    disponible sur la page d’accueil des Sites, permettant
+                    d’annuler une réservation en renseignant l’adresse e-mail fournie lors de la réservation et le
+                    numéro de
+                    réservation indiqué dans l’e-mail de confirmation de la réservation.</p>
+                <p>6.5 Certaines offres commerciales présentes sur les Sites comportent des conditions particulières sur
+                    l’annulation et la modification de la réservation,
+                    celles-ci sont détaillées dans leurs Conditions particulières figurant dans la fiche descriptive de
+                    l’offre.
+                </p>
+                <p>6.6 Sauf conditions particulières différentes, l’annulation ou la modification d’une réservation
+                    n’est
+                    possible sans frais que dans un délai minimum de 48h avant
+                    l’heure d’arrivée prévue par la réservation. Pour toute annulation survenant moins de 48h avant
+                    l’heure
+                    d’arrivée, une nuitée de pénalité sera automatiquement débitée de la
+                    carte de crédit du Client indiquée au moment de la réservation.</p>
+                <p>6.7 Afin de modifier une réservation sur les Sites, la réservation effectuée doit être annulée dans
+                    les
+                    conditions précitées et une nouvelle réservation doit être effectuée.</p>
+            </div>
+
+            <div class="show7">
+                <h2>NON PRÉSENTATION ET INTERRUPTION DU SÉJOUR<i class="fas fa-caret-down"></i></h2>
+            </div>
+            <div class="para7">
+                <p>7.1 Toute réservation effectuée sur le Site prévoit une heure d’arrivée à 15h00 et une heure de
+                    départ à
+                    12h00. Le Client doit se présenter à l’Hôtel avant 18h00 ou
+                    prévenir l’hôtel en cas d’arrivée tardive. A défaut de présentation du Client à l’Hôtel après 18h00,
+                    une
+                    nuitée de pénalité sera automatiquement débitée de la carte bancaire
+                    du Client indiquée au moment de la réservation, sauf en cas de prépaiement de la réservation sur le
+                    Site.
+                </p>
+                <p>7.2 En cas de libération de la chambre réservée après l’heure de départ requise (12h00), une nuitée
+                    supplémentaire sera facturée au Client à titre de pénalité.</p>
+                <p>7.3 Toute interruption du séjour avant la date de départ prévue dans la réservation entrainera le
+                    paiement de
+                    l’intégralité du prix convenu.</p>
+            </div>
+
+            <div class="show8">
+                <h2>PRIX DES PRESTATIONS<i class="fas fa-caret-down"></i></h2>
+            </div>
+            <div class="para8">
+                <p>8.1 Le prix des Prestations est indiqué sur les Sites avant la réservation sur la fiche descriptive
+                    de
+                    l’offre, ainsi qu’au cours de la réservation.</p>
+                <p>8.2 Les tarifs indiqués s’entendent par chambre, pour le nombre de personnes indiqué, selon l’Hôtel
+                    et la
+                    période sélectionnés, et ne comprennent que les Prestations strictement
+                    mentionnées dans la réservation.</p>
+                <p>8.3 Le prix de chaque Prestation est indiqué toutes taxes comprises (TTC), hors taxe de séjour, et
+                    détaille
+                    le montant de la TVA applicable à la Prestation.</p>
+                <p>8.4 L’euro est la devise commerciale de la réservation, le paiement doit donc impérativement être
+                    effectué
+                    dans cette devise. Les prix affichés sur les Sites dans des
+                    devises différentes restent estimatifs et ne reflètent pas avec exactitude le montant à payer,
+                    indiqué en
+                    euros lors de la validation de la réservation par le Client.</p>
+                <p>8.5 Les prix mentionnés sur les Sites sont susceptibles de modification à tout moment par HOTEL COP
+                    PARIS,
+                    sans mention préalable ou préavis. Seul le prix indiqué
+                    dans la confirmation de la réservation est contractuel.</p>
+            </div>
+
+            <div class="show9">
+                <h2>PAIEMENT DU PRIX<i class="fas fa-caret-down"></i></h2>
+            </div>
+            <div class="para9">
+                <p>9.1 Sauf conditions particulières différentes, le paiement du prix des Prestations est effectué à
+                    l’Hôtel, à
+                    l’issue du séjour. En cas de prépaiement, les sommes versées
+                    constituent des arrhes et ne peuvent faire l’objet d’aucun remboursement au Client.</p>
+                <p>9.2 En cas de non présentation à l’Hôtel ou d’annulation tardive entrainant une nuitée de pénalité,
+                    les
+                    coordonnées bancaires du Client fournies au moment de la
+                    réservation seront utilisées aux fins de règlement des pénalités correspondantes.</p>
+            </div>
+
+            <div class="show10">
+                <h2>SÉJOUR A L’HOTEL<i class="fas fa-caret-down"></i></h2>
+            </div>
+            <div class="para10">
+                <p>10.1 En application de la règlementation française en vigueur, il pourra être demandé au Client de
+                    remplir
+                    une fiche de police à son arrivée dans l’Hôtel.
+                    Afin de vérifier si le Client doit être soumis à cette formalité, une pièce d’identité lui sera
+                    demandée.
+                </p>
+                <p>10.2 La plupart des hôtels de HOTEL COP PARIS accueillent certains animaux dès lors qu’ils sont tenus
+                    en
+                    laisse ou en cage dans les parties communes de l’établissement.
+                    Pour plus d’informations sur ces conditions d’accueil, il est conseillé au Client de contacter
+                    directement
+                    l’Hôtel concerné. Pendant toute la durée du séjour,
+                    l’animal reste sous l’entière responsabilité du Client. Pour des raisons d’hygiène, les animaux ne
+                    sont pas
+                    admis dans les salles de restauration.</p>
+                <p>10.3 Au cours du séjour, le Client s’engage à utiliser la chambre qui lui est louée de façon
+                    raisonnable et
+                    en bon père de famille. L’Hôtel pourra demander au
+                    Client de quitter l’Hôtel sans qu’aucune indemnité ne lui soit versée et de régler l’intégralité de
+                    la
+                    Prestation réservée notamment en cas de :</p>
+                <ul>
+                    <li>comportement contraire aux bonnes mœurs ou à l’ordre public,</li>
+                    <li>tout dommage, dégradation, acte de vandalisme survenu de son fait ou de celui de ses préposés ou
+                        personnes dont il a la charge, pendant l’occupation des locaux, sur tous
+                        biens mobilier ou immobilier, d’ameublement, de décoration ou de toute autre nature présent dans
+                        l’Hôtel.</li>
+                </ul>
+                <p>En outre il sera exigé du Client le remboursement intégral des dommages causés par ses actes, HOTEL
+                    COP PARIS
+                    disposant de toute faculté et pouvant engager toute
+                    action utile afin d’obtenir la réparation du préjudice subi.</p>
+                <p>10.4 HOTEL COP PARIS met à la disposition des Clients un accès internet en wifi dans tous les Hôtels.
+                    Le Client s’engage à ce que les ressources informatiques mises à sa disposition ne soient pas
+                    utilisées à
+                    des fins frauduleuses ou illégales, et notamment afin de
+                    commettre tout acte de contrefaçon de droits de tiers et/ou de téléchargement illégal d’œuvres
+                    protégées par
+                    un droit d’auteur ou un droit voisin, sanctionnés par
+                    l’article L.335-2 du Code de la propriété intellectuelle.</p>
+            </div>
+
+            <div class="show11">
+                <h2>DÉLOGEMENT – FORCE MAJEURE<i class="fas fa-caret-down"></i></h2>
+            </div>
+            <div class="para11">
+                <p>11.1 En cas d’indisponibilité de la chambre réservée au sein d’un Hôtel, HOTEL COP PARIS se réserve
+                    la
+                    possibilité de faire héberger totalement ou partiellement le
+                    Client dans un Hôtel de catégorie équivalente ou supérieure et proposant des Prestations de même
+                    nature. Le
+                    transfert sera entièrement à la charge de HOTEL COP PARIS,
+                    sans qu’aucun frais supplémentaire ne soit demandé au Client par l’Hôtel.</p>
+                <p>11.2 HOTEL COP PARIS sera dégagée de toute responsabilité pour le non accomplissement de ses
+                    obligations en
+                    cas d’événements relevant d’un cas de force majeure,
+                    pour la durée de l’événement de force majeure, et s’engage à faire tous les efforts raisonnablement
+                    nécessaires pour en limiter les effets.</p>
+                <p>11.3 Pour l'application du présent Article, la force majeure est entendue comme tout événement ou
+                    fait que
+                    les parties ne pouvaient pas raisonnablement prévoir et
+                    contrôler au moment de la réservation en raison de son caractère extérieur aux parties, imprévisible
+                    et
+                    irrésistible. Sont ainsi notamment considérés comme cas de force
+                    majeure, outre ceux retenus par les cours et les tribunaux français, les grèves totales ou
+                    partielles,
+                    internes ou externes aux Hôtels, terrorisme, guerres ou soulèvements,
+                    intempéries, épidémies, blocage des moyens de transport ou d’approvisionnement pour quelque cause
+                    que ce
+                    soit, tremblement de terre, incendie, tempête, inondation, dégât des eaux,
+                    panne du système informatique paralysant la poursuite normale de son activité par une Partie.</p>
+            </div>
+
+            <div class="show12">
+                <h2>REGLEMENTATION SANITAIRE - PROTOCOLE SANITAIRE<i class="fas fa-caret-down"></i></h2>
+            </div>
+            <div class="para12">
+                <p>En application de la législation et réglementation sanitaires en vigueur, l’ensemble des Hôtels du
+                    Groupe
+                    INWOOD s’engagent, dans le cadre de leurs prestations,
+                    et dans le respect de leur protocole sanitaire, à se conformer aux diverses règles et
+                    recommandations
+                    officielles en vigueur.</p>
+                <p>HOTEL COP PARIS s’engage à mettre tous les moyens en œuvre possible pour préserver et assurer la
+                    sécurité
+                    sanitaire de ses Clients et plus généralement de l’ensemble
+                    de ses partenaires. En conséquence de cette obligation de moyen, la responsabilité HOTEL COP PARIS
+                    ne peut
+                    être engagée qu’en cas de faute ou de négligence prouvée.</p>
+                <p>En outre et dans le cas où un Client agirait, directement ou indirectement, de sa propre initiative
+                    ou à
+                    l’instigation d’un tiers, en violation du protocole sanitaire
+                    mis en place par les hôtels du groupe INWOOD et, de manière plus générale, en violation de
+                    l’ensemble des
+                    mesures mises en œuvre par les hôtels du groupe INWOOD pour se
+                    conformer aux règles sanitaires applicables, HOTEL COP PARIS ne pourra pas être tenue responsable
+                    des
+                    dommages directs ou indirects et/ ou des conséquence de toute nature
+                    résultant d’une telle violation.</p>
+            </div>
+
+            <div class="show13">
+                <h2>DONNÉES PERSONNELLES<i class="fas fa-caret-down"></i></h2>
+            </div>
+            <div class="para13">
+                <p>13.1 En application de la loi n°2018 – 493 du 20 juin 2018 relative à la protection des données
+                    personnelles
+                    et du Règlement Général sur la protection des
+                    données n°2016/679 (RGPD), le Client est informé que les informations fournies lors de la
+                    réservation ont
+                    fait l’objet d’un traitement de données personnelles à des
+                    fins de gestion des réservations et des Clients, des besoins de facturation et de paiement, ainsi
+                    qu’à des
+                    fins de prospection commerciale.</p>
+                <p>13.2 Le Client est également informé que les hôtels disposent à des fins de sécurité des personnes et
+                    des
+                    biens d’un système de vidéosurveillance au sein des
+                    parties communes du bâtiment.</p>
+                <p>13.3 Le Client dispose d’un droit d’accès, de rectification, de portabilité et de suppression des
+                    données à
+                    caractère personnel le concernant, qu’il peut exercer auprès
+                    des services HOTEL COP PARIS en écrivant à l’adresse e-mail suivante : contact@inwood-hotels.com ou
+                    à
+                    l’adresse e-mail de l’hôtel concerné.</p>
+                <p>13.4 Le Client peut obtenir des informations sur la manière dont HOTEL COP PARIS traite ses données
+                    personnelles en consultant la Politique de Vie Privée ou
+                    en adressant une demande à l'adresse e-mail suivante : contact@inwood-hotels.com ou à l'adresse de
+                    notre
+                    siège social : 209 rue de l’Université, 75007 Paris (France).</p>
+            </div>
+
+            <div class="show14">
+                <h2>LOI APPLICABLE – MÉDIATION - JURIDICTION<i class="fas fa-caret-down"></i></h2>
+            </div>
+            <div class="para14">
+                <p>14.1 Les présentes Conditions Générales de Vente sont régies par la loi française.</p>
+                <p>14.2 Toutes réclamations relatives à l’inexécution ou la mauvaise exécution des Prestations par un
+                    Hôtel
+                    doivent être signalées par le Client, sous peine de forclusion,
+                    par lettre recommandée avec accusé de réception, dans un délai de quinze jours suivant la date de
+                    départ de
+                    l’Hôtel à :</p>
+                <ul>
+                    <li>l’adresse postale suivante: HOTEL COP PARIS, 209 rue de l’Université, 75007 Paris.</li>
+                    <li>l’adresse e-mail contact@inwood-hotels.com.</li>
+                </ul>
+                <p>HOTEL COP PARIS s’efforcera de traiter au mieux cette réclamation et parvenir à une résolution du
+                    différend
+                    conforme aux intérêts des deux parties.</p>
+                <p>14.3 A défaut de règlement amiable du différend, le Client dispose de la possibilité de saisir le
+                    Médiateur
+                    Tourisme Voyage, Monsieur Jean-Pierre Teyssier, à l’adresse suivante :</p>
+                <p>MTV Médiation Tourisme Voyage <br>BP 80 303 <br>75823 Paris Cedex.</p>
+                <p>Pour plus d’information sur le Médiateur Tourisme Voyage, le Client peut consulter son site internet
+                    :
+                    www.mtv.travel/.</p>
+                <p>14.4 Nonobstant ce qui précède, toute difficulté relative à l’interprétation, à l’exécution et à la
+                    validité
+                    des présentes Conditions Générales de Vente seront soumises
+                    à la compétence exclusive des Tribunaux compétents de Paris.</p>
+            </div>
+
+            <div class="show15">
+                <h2>DISPOSITIONS GÉNÉRALES<i class="fas fa-caret-down"></i></h2>
+            </div>
+            <div class="para15">
+                <p>15.1 Les Conditions Générales de Vente sont modifiées régulièrement, notamment en considération de
+                    changements normatifs. Les nouvelles Conditions Générales de Vente
+                    s'appliqueront à leur date de publication sur les Sites.</p>
+                <p>15.2 Les Conditions Générales de Vente, y compris la Politique de Confidentialité, les Conditions
+                    Générales
+                    d’Utilisation du Site et le cas échéant les conditions
+                    particulières propres à certaines offres, constituent l’intégralité du contrat conclu entre le
+                    Client et
+                    HOTEL COP PARIS concernant sa réservation sur les Sites et annulent
+                    toutes conditions générales de vente antérieures.</p>
+                <p>15.3 Dans l’hypothèse où l’une des stipulations des présentes Conditions Générales de Vente serait
+                    déclarée
+                    nulle en tout ou partie, pour quelque cause que ce soit,
+                    les autres stipulations resteront en vigueur.</p>
+            </div>
+        </div>
+
+    </main>
+          <!--MODAL-->
+
+   <!-- Modal -->
+   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+   aria-hidden="true">
+   <div class="modal-dialog" role="document">
+       <div class="modal-content">
+           <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel"><i class="fas fa-envelope"></i>Contactez nous</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+               </button>
+           </div>
+           <div class="modal-body">
+               <form class="needs-validation" novalidate>
+                   <div class="d-flex ">
+                       <div class="form-group">
+                           <label for="exampleInputEmail1">Nom</label>
+                           <input type="text" class="form-control" id="exampleInputEmail1"
+                               aria-describedby="exampleInputEmail1" required>
+                           <div class="invalid-feedback">
+                               Veuillez écrire votre nom
+                           </div>
+                       </div>
+
+                       <div class="form-group offset-1">
+                           <label for="exampleInputPassword2">Prénom</label>
+                           <input type="text" class="form-control" id="exampleInputPassword2" required>
+                           <div class="invalid-feedback">
+                               Veuillez écrire votre prénom
+                           </div>
+                       </div>
+                   </div>
+
+               <div class="d-flex ">
+                   <div class="form-group">
+                       <label for="exampleInputPassword3">Entreprise</label>
+                       <input type="text" class="form-control" id="exampleInputPassword3">
+                   </div>
+
+                   <div class="form-group offset-1">
+                       <label for="exampleInputPassword4">Email</label>
+                       <input type="email" class="form-control" id="exampleInputPassword4" required>
+                       <div class="invalid-feedback">
+                           Veuillez écrire votre email
+                       </div>
+                   </div>
+               </div>
+
+               <div class="d-flex ">
+                   <div class="form-group">
+                       <label for="exampleInputPassword8">Téléphone</label>
+                       <input type="tel" class="form-control" id="exampleInputPassword8">
+                   </div>
+
+                   <div class="form-group offset-1">
+                       <label for="exampleInputPassword5">Pays</label>
+                       <input type="text" class="form-control" id="exampleInputPassword5" required>
+                       <div class="invalid-feedback">
+                           Veuillez indiquer votre pays
+                       </div>
+                   </div>
+               </div>
+
+               <div class="d-flex ">
+                   <div class="form-group">
+                       <label for="exampleInputPassword6">Sujet</label>
+                       <input type="text" class="form-control" id="exampleInputPassword6" required>
+                       <div class="invalid-feedback">
+                           Veuillez indiquer le sujet
+                       </div>
+                   </div>
+
+                   <div class="form-group offset-1">
+                       <label for="exampleInputPassword7">Catégorie</label>
+                       <select class="form-control" id="exampleInputPassword7" required>
+                           <option value="" selected>Choisissez...</option>
+                           <option>Chambre</option>
+                           <option>Restaurant</option>
+                           <option>Spa</option>
+                           <option>Autre</option>
+                       </select>
+                   </div>
+               </div>
+
+                   <div class="form-group">
+                       <label for="exampleInputPassword9">Message</label>
+                       <textarea class="form-control" id="exampleInputPassword9" required></textarea>
+                       <div class="invalid-feedback">
+                           Veuillez écrire votre message
+                       </div>
+                   </div>
+
+                   <button type="submit" class="btn btn-primary"
+                       style="background-color: #AC9563; border: none;">Envoyer</button>
+               </form>
+           </div>
+           <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+           </div>
+       </div>
+   </div>
+</div>
+
+<!-- FIN MODAL-->
+    <footer>
+        <div class="container-fluid banniere-footer-displ"><!-- Il se met en display none a moins de media(500) -->
+            <div class="row">
+                <div class="banniere-footer d-flex col-lg-12">
+                    <p><a href="#" data-toggle="modal" data-target="#exampleModal">Contact</a></p>
+                    <p><a href="../recrutement/recrutement.html">Recrutement</a></p>
+                    <p><a href="../presse_actu_event/presse.html">presse</a></p>
+                    <p><a href="Avis/avis.html">Avis</a></p>
+                    <p><a href="../plan_du_site/plan_du_site.html">Plan du site</a></p>
+                    <p><a href="#" OnClick="javascript:window.print()">Imprimer la page</a></p>
+    
+                    <div class="reseaux">
+                        <ul>
+                            <li class="connect">Suivez-nous</li>
+                            <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://www.pinterest.com"><i class="fab fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+            </div>    
+        </div>
+        <!-- Dans la partie noir de mon footer -->
+        <div class="footer-logo">
+            <p><img src="../img/logo-or.png" alt="logo"></p>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="fin-footer">
+                    <div class="contact-footer">
+                        <h6>Informations</h6>
+                        <p><a href="../Qui-sommes-nous/qui_sommes_nous.html">À propos de nous</a></p>
+                        <p><a href="../recrutement/recrutement.html">Carrières</a></p>
+                        <p><a href="../presse_actu_event/actualités.html">Actualités</a></p>
+                        <p><a href="#" data-toggle="modal" data-target="#exampleModal">Nous contacter</a></p>
+                    </div>
+                    <div class="objectif">
+                        <h6>Liens utiles</h6>
+                        <p><a href="../reservation/reserve.html">Réservations</a></p>
+                        <p><a href="presse_actu_event/event.html">Événements</a></p>
+                        <p><a href="../cgv/mentions_legales.html">Mentions légales</a></p>
+                        <p><a href="../cgv/cgv.html">CGV</a></p>
+                    </div>
+                    <div class="news">
+                        <!-- Display none a moins de media(630) -->
+                        <h6>Recevoir nos offres</h6>
+                        <form>
+                            <input type="text" name="offre" id="mon-inputFooter" required>
+                            <input type="submit" value="OK">
+                        </form>
+                    </div>
+                </div>
+                <p class="monAdresse">1 Avenue Montaigne 75008 Paris | | 01 00 00 00 00  | | <span class="maito"> <a href="mailto:">contact@hotelcop.fr</a> </span></p>
+                <div class="divider2"></div>
+                <div class="fin">
+                    <p>©Hotelcop Limited 2020. Tous les droits sont réservés.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- cdn Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <!-- Fin de cdn bootstrap  -->
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/2c505c2fd3.js" crossorigin="anonymous"></script>
+    <!-- Fin de cdn font awesome -->
+
+    <!-- CDN pour jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- src pour slick -->
+    <script src="../chambre/slick-1.5.0/slick/slick.min.js"></script>
+    <!-- Src pour mon js -->
+    <script src="js-cgv/cgv.js"></script>
+    <script src="../chambre/js-principal/chambre.js"></script>
+</body>
+
+</html>
